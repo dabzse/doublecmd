@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: Double Commander 1.1.0 alpha\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-15 11:15+0300\n"
-"PO-Revision-Date: 2024-07-21 14:57+0200\n"
+"PO-Revision-Date: 2024-10-12 17:35+0200\n"
 "Last-Translator: Mihaly Nyilas <dr.dabzse@gmail.com>\n"
 "Language-Team: dabzse.net | nyilas.dev <dr.dabzse@gmail.com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 "X-Native-Language: Magyar\n"
 
 #: fsyncdirsdlg.rscomparingpercent
@@ -30,8 +30,12 @@ msgstr "Jobbról: %d fájl törlése"
 
 #: fsyncdirsdlg.rsfilesfound
 #, object-pascal-format
-msgid "Files found: %d  (Identical: %d, Different: %d, Unique left: %d, Unique right: %d)"
-msgstr "%d fájl található: (%d azonos, %d különböző, %d csak a bal oldalon, %d csak a jobb oldalon)"
+msgid ""
+"Files found: %d  (Identical: %d, Different: %d, Unique left: %d, Unique "
+"right: %d)"
+msgstr ""
+"%d fájl található: (%d azonos, %d különböző, %d csak a bal oldalon, %d csak "
+"a jobb oldalon)"
 
 #: fsyncdirsdlg.rslefttorightcopy
 #, object-pascal-format
@@ -99,7 +103,7 @@ msgstr "E&llenőrzés"
 
 #: tfilesystemcopymoveoperationoptionsui.cmbsetpropertyerror.hint
 msgid "What to do when cannot set file time, attributes, etc."
-msgstr "Mit tegyen, ha nem bírja beállítani a fájl idejét, attribútumait stb."
+msgstr "Mit tegyen, ha nem bírja beállítani a fájl idejét, attribútumait, stb."
 
 #: tfilesystemcopymoveoperationoptionsui.gbfiletemplate.caption
 msgid "Use file template"
@@ -144,7 +148,7 @@ msgstr "Kiadás"
 #: tfrmabout.lblcommit.caption
 msgctxt "tfrmabout.lblcommit.caption"
 msgid "Commit"
-msgstr "Kommit"
+msgstr "Véglegesítés"
 
 #: tfrmabout.lblfreepascalver.caption
 msgctxt "tfrmabout.lblfreepascalver.caption"
@@ -314,7 +318,7 @@ msgstr "Hash"
 
 #: tfrmbenchmark.stgresult.columns[1].title.caption
 msgid "Time (ms)"
-msgstr "Idő(ms)"
+msgstr "Idő (ms)"
 
 #: tfrmbenchmark.stgresult.columns[2].title.caption
 msgid "Speed (MB/s)"
@@ -327,7 +331,7 @@ msgstr "Ellenőrző összeg számítása..."
 
 #: tfrmchecksumcalc.cbopenafterjobiscomplete.caption
 msgid "Open checksum file after job is completed"
-msgstr "Az ellenőrzőösszeg-fájl megnyitása amikor kész"
+msgstr "Az ellenőrzőösszeg-fájl megnyitása, amikor kész"
 
 #: tfrmchecksumcalc.cbseparatefile.caption
 msgid "C&reate separate checksum file for each file"
@@ -834,7 +838,7 @@ msgstr "Utolsó gyorsbillentyű eltávolítása a sorozatból"
 
 #: tfrmedithotkey.btnselectfromlist.hint
 msgid "Select shortcut from list of remaining free available keys"
-msgstr "Válassz egy gyorsbillentyűt a fennmaradó szabad billentyűkből"
+msgstr "Válasszon egy gyorsbillentyűt a fennmaradó szabad billentyűkből"
 
 #: tfrmedithotkey.cghkcontrols.caption
 msgid "Only for these controls"
@@ -1089,7 +1093,7 @@ msgstr "Kó&dolás"
 
 #: tfrmeditor.miencodingin.caption
 msgid "Open as"
-msgstr "Megnyitás mint"
+msgstr "Megnyitás, mint"
 
 #: tfrmeditor.miencodingout.caption
 msgctxt "tfrmeditor.miencodingout.caption"
@@ -1170,7 +1174,7 @@ msgstr "Fájlok kibontása"
 
 #: tfrmextractdlg.cbextractpath.caption
 msgid "&Unpack path names if stored with files"
-msgstr "Ú&tvonalak kibontása ha a fájlnév tartalmazza"
+msgstr "Ú&tvonalak kibontása, ha a fájlnév tartalmazza"
 
 #: tfrmextractdlg.cbfilemask.text
 msgctxt "tfrmextractdlg.cbfilemask.text"
@@ -1179,7 +1183,7 @@ msgstr "*.*"
 
 #: tfrmextractdlg.cbinseparatefolder.caption
 msgid "Unpack each archive to a &separate subdir (name of the archive)"
-msgstr "Minden archívum kibontása külön &alkönyvtárakba (archívnév)"
+msgstr "Minden archívum kibontása külön &alkönyvtárakba (az archívum neve)"
 
 #: tfrmextractdlg.cboverwrite.caption
 msgid "O&verwrite existing files"
@@ -1226,7 +1230,7 @@ msgstr "&Mégsem"
 
 #: tfrmfileop.btnminimizetopanel.caption
 msgid "&To panel"
-msgstr "&A műveleti panelre"
+msgstr "&A panelre"
 
 #: tfrmfileop.btnviewoperations.caption
 msgid "&View all"
@@ -1388,7 +1392,7 @@ msgstr "Olvasás"
 
 #: tfrmfileproperties.lblsizeondiskstr.caption
 msgid "Size on disk:"
-msgstr "Hely a lemezen:"
+msgstr "Méret a lemezen:"
 
 #: tfrmfileproperties.lblsizestr.caption
 msgctxt "tfrmfileproperties.lblsizestr.caption"
@@ -1458,7 +1462,7 @@ msgstr "Feloldás"
 
 #: tfrmfileunlock.stgfilehandles.columns[0].title.caption
 msgid "File Handle"
-msgstr "Kezelő azonosító (file handle)"
+msgstr "Kezelő azonosító"
 
 #: tfrmfileunlock.stgfilehandles.columns[1].title.caption
 msgid "Process ID"
@@ -1475,7 +1479,7 @@ msgstr "&Mégsem"
 
 #: tfrmfinddlg.actcancelclose.caption
 msgid "Cancel search and close window"
-msgstr "&Bezárás"
+msgstr "Keresés törlése és ablak bezárása"
 
 #: tfrmfinddlg.actclose.caption
 msgctxt "TFRMFINDDLG.ACTCLOSE.CAPTION"
@@ -1502,7 +1506,8 @@ msgstr "Keresés leállítása, bezárás és a memória felszabadítása"
 
 #: tfrmfinddlg.actfreefrommemallothers.caption
 msgid "For all other \"Find files\", cancel, close and free from memory"
-msgstr "Minden más fájl keresés leállítása, bezárás és a memória felszabadítása"
+msgstr ""
+"Minden más fájl keresés leállítása, bezárás és a memória felszabadítása"
 
 #: tfrmfinddlg.actgotofile.caption
 msgid "&Go to file"
@@ -1596,8 +1601,13 @@ msgid "Sa&ve with \"Start in directory\""
 msgstr "Me&ntés a kezdő mappával együtt"
 
 #: tfrmfinddlg.btnsearchsavewithstartingpath.hint
-msgid "If saved then \"Start in directory\" will be restored when loading template. Use it if you want to fix searching to a certain directory"
-msgstr "Ha ezt a lehetőséget választod, akkor a keresés kiinduló mappája is visszaállításra kerül a sablon betöltésekor. Egy adott mappában történő keresés elmentésére használható"
+msgid ""
+"If saved then \"Start in directory\" will be restored when loading template. "
+"Use it if you want to fix searching to a certain directory"
+msgstr ""
+"Ha ezt a lehetőséget választja, akkor a keresés kiinduló mappája is "
+"visszaállításra kerül a sablon betöltésekor. Egy adott mappában történő "
+"keresés elmentésére használható"
 
 #: tfrmfinddlg.btnusetemplate.caption
 msgid "Use template"
@@ -1646,7 +1656,7 @@ msgstr "A szöveget &NEM tartalmazó fájlok keresése"
 
 #: tfrmfinddlg.cbnotolderthan.caption
 msgid "N&ot older than:"
-msgstr "Nem régebbi mint:"
+msgstr "Nem régebbi, mint:"
 
 #: tfrmfinddlg.cbofficexml.caption
 msgid "Offi&ce XML"
@@ -1714,16 +1724,23 @@ msgid "Hexadeci&mal"
 msgstr "Hexadeci&mális"
 
 #: tfrmfinddlg.cmbexcludedirectories.hint
-msgid "Enter directories names that should be excluded from search separated with \";\""
-msgstr "Írd be a keresésből kizárandó mappák nevét pontosvesszővel (\";\") elválasztva"
+msgid ""
+"Enter directories names that should be excluded from search separated with "
+"\";\""
+msgstr ""
+"Írja be a keresésből kizárandó mappák nevét pontosvesszővel (\";\") "
+"elválasztva"
 
 #: tfrmfinddlg.cmbexcludefiles.hint
-msgid "Enter files names that should be excluded from search separated with \";\""
-msgstr "Írd be a keresésből kizárandó fájlok nevét pontosvesszővel (\";\") elválasztva"
+msgid ""
+"Enter files names that should be excluded from search separated with \";\""
+msgstr ""
+"Írja be a keresésből kizárandó fájlok nevét pontosvesszővel (\";\") "
+"elválasztva"
 
 #: tfrmfinddlg.cmbfindfilemask.hint
 msgid "Enter files names separated with \";\""
-msgstr "Írd be a fájlok nevét pontosvesszővel (\";\") elválasztva"
+msgstr "Írja be a fájlok nevét pontosvesszővel (\";\") elválasztva"
 
 #: tfrmfinddlg.frmcontentplugins.headercontrol.sections[0].text
 msgctxt "tfrmfinddlg.frmcontentplugins.headercontrol.sections[0].text"
@@ -1794,11 +1811,11 @@ msgstr "&Előző keresések:"
 
 #: tfrmfinddlg.miaction.caption
 msgid "&Action"
-msgstr "&Akciók"
+msgstr "&Cselekvés"
 
 #: tfrmfinddlg.mifreefrommemallothers.caption
 msgid "For all others, cancel, close and free from memory"
-msgstr "Az többi leállítása, bezárása és a memória felszabadítása"
+msgstr "A többi leállítása, bezárása és a memória felszabadítása"
 
 #: tfrmfinddlg.miopeninnewtab.caption
 msgid "Open In New Tab(s)"
@@ -1827,7 +1844,7 @@ msgstr "Szerkesztőben mutat"
 
 #: tfrmfinddlg.mishowinviewer.caption
 msgid "Show In Viewer"
-msgstr "Megjelenítés a nézőkében"
+msgstr "Megjelenítés nézőkében"
 
 #: tfrmfinddlg.miviewtab.caption
 msgctxt "TFRMFINDDLG.MIVIEWTAB.CAPTION"
@@ -1876,7 +1893,7 @@ msgstr "&Visszafelé"
 
 #: tfrmfindview.cbcasesens.caption
 msgid "C&ase sensitive"
-msgstr "Be&tűméret számít"
+msgstr "Karak&terérzékeny"
 
 #: tfrmfindview.cbregexp.caption
 msgctxt "tfrmfindview.cbregexp.caption"
@@ -1908,7 +1925,7 @@ msgstr "Névtelen csatlakozás"
 
 #: tfrmgioauthdialog.rbconnetas.caption
 msgid "Connect as user:"
-msgstr "Csatlakozás a következő felhasználóként:"
+msgstr "Csatlakozás felhasználóként:"
 
 #: tfrmhardlink.btncancel.caption
 msgctxt "TFRMHARDLINK.BTNCANCEL.CAPTION"
@@ -1946,7 +1963,7 @@ msgstr "Kiválasztott importálása"
 
 #: tfrmhotdirexportimport.caption
 msgid "Select the entries your want to import"
-msgstr "Válaszd ki az importálandó elemeket"
+msgstr "Válassza ki az importálandó elemeket"
 
 #: tfrmhotdirexportimport.lbhint.caption
 msgid "When clicking a sub-menu, it will select the whole menu"
@@ -2075,11 +2092,11 @@ msgstr "Ellenőrző összeg &vizsgálata..."
 
 #: tfrmmain.actclearlogfile.caption
 msgid "Clear log file"
-msgstr "Naplófájl űrítése"
+msgstr "Naplófájl ürítése"
 
 #: tfrmmain.actclearlogwindow.caption
 msgid "Clear log window"
-msgstr "Naplóablak űrítése"
+msgstr "Naplóablak ürítése"
 
 #: tfrmmain.actclosealltabs.caption
 msgid "Close &All Tabs"
@@ -2180,12 +2197,12 @@ msgstr "Buboréktippek konfigurálása"
 #: tfrmmain.actconfigtreeviewmenus.caption
 msgctxt "tfrmmain.actconfigtreeviewmenus.caption"
 msgid "Configuration of Tree View Menu"
-msgstr "Fa elrendezésű menü beállítása"
+msgstr "Fa menü beállítása"
 
 #: tfrmmain.actconfigtreeviewmenuscolors.caption
 msgctxt "tfrmmain.actconfigtreeviewmenuscolors.caption"
 msgid "Configuration of Tree View Menu Colors"
-msgstr "Fa elrendezésű menü színeinek beállítása"
+msgstr "Fa menü színeinek beállítása"
 
 #: tfrmmain.actcontextmenu.caption
 msgid "Show context menu"
@@ -2222,7 +2239,9 @@ msgstr "Megerősítés nélküli másolás"
 
 #: tfrmmain.actcopypathnosepoffilestoclip.caption
 msgid "Copy Full Path of selected file(s) with no ending dir separator"
-msgstr "Kijelölt fájlnevek másolása teljes elérési úttal, a végén mappa elválasztó nélkül"
+msgstr ""
+"Kijelölt fájlnevek másolása teljes elérési úttal, a végén mappa elválasztó "
+"nélkül"
 
 #: tfrmmain.actcopypathoffilestoclip.caption
 msgid "Copy Full Path of selected file(s)"
@@ -2271,7 +2290,7 @@ msgstr "&Belső parancs végrehajtása..."
 
 #: tfrmmain.actdoanycmcommand.hint
 msgid "Select any command and execute it"
-msgstr "Válassz egy parancsot és futtasd"
+msgstr "Válasszon egy parancsot és futtassa"
 
 #: tfrmmain.actedit.caption
 msgctxt "TFRMMAIN.ACTEDIT.CAPTION"
@@ -2345,35 +2364,35 @@ msgstr "Váltás bal és jobb oldali fájl lista között"
 
 #: tfrmmain.actfocustreeview.caption
 msgid "Focus on tree view"
-msgstr "Fa elrendezésre fókuszálás"
+msgstr "Fókuszáljon a fa nézetre"
 
 #: tfrmmain.actfocustreeview.hint
 msgid "Switch between current file list and tree view (if enabled)"
-msgstr "Váltás a jelenlegi fájl lista és a fa elrendezésű nézet közt (ha engedélyezett)"
+msgstr "Váltás a jelenlegi fájl lista és a fa nézet közt (ha engedélyezett)"
 
 #: tfrmmain.actgotofirstentry.caption
 msgid "Place cursor on first folder or file"
-msgstr "Vidd a kurzort az első mappára vagy fájlra"
+msgstr "Vigye a kurzort az első mappára vagy fájlra"
 
 #: tfrmmain.actgotofirstfile.caption
 msgid "Place cursor on first file in list"
-msgstr "Vidd a kurzort az első fájlra"
+msgstr "Vigye a kurzort az első fájlra"
 
 #: tfrmmain.actgotolastentry.caption
 msgid "Place cursor on last folder or file"
-msgstr "Vidd a kurzort az utolsó mappára vagy fájlra"
+msgstr "Vigye a kurzort az utolsó mappára vagy fájlra"
 
 #: tfrmmain.actgotolastfile.caption
 msgid "Place cursor on last file in list"
-msgstr "Vidd a kurzort az utolsó fájlra"
+msgstr "Vigye a kurzort az utolsó fájlra"
 
 #: tfrmmain.actgotonextentry.caption
 msgid "Place cursor on next folder or file"
-msgstr "Vidd a kurzort a következő mappára vagy fájlra"
+msgstr "Vigye a kurzort a következő mappára vagy fájlra"
 
 #: tfrmmain.actgotopreventry.caption
 msgid "Place cursor on previous folder or file"
-msgstr "Vidd a kurzort az előző mappára vagy fájlra"
+msgstr "VigyeSet splitter position a kurzort az előző mappára vagy fájlra"
 
 #: tfrmmain.acthardlink.caption
 msgid "Create &Hard Link..."
@@ -2437,7 +2456,7 @@ msgstr "Bal panel rendezése &méret szerint"
 
 #: tfrmmain.actleftthumbview.caption
 msgid "Thumbnails view on left panel"
-msgstr "Miniatűrök mutatása a bal panelben"
+msgstr "Bélyegképek mutatása a bal panelben"
 
 #: tfrmmain.actloadfavoritetabs.caption
 msgid "Load tabs from Favorite Tabs"
@@ -2468,7 +2487,6 @@ msgid "Create &Directory"
 msgstr "Új könyvtár"
 
 #: tfrmmain.actmapnetworkdrive.caption
-msgctxt "tfrmmain.actmapnetworkdrive.caption"
 msgid "Map Network Drive..."
 msgstr "Hálózati meghajtó hozzáadása..."
 
@@ -2607,11 +2625,11 @@ msgstr "Gyors szűrő"
 
 #: tfrmmain.actquicksearch.caption
 msgid "Quick search"
-msgstr "Gyorskeresés"
+msgstr "Gyors keresés"
 
 #: tfrmmain.actquickview.caption
 msgid "&Quick View Panel"
-msgstr "&Gyorsnézőke panel"
+msgstr "&Gyors nézőke panel"
 
 #: tfrmmain.actrefresh.caption
 msgid "&Refresh"
@@ -2624,7 +2642,7 @@ msgstr "A legutóbbi Kedvenc fülek újratöltése"
 #: tfrmmain.actrename.caption
 msgctxt "tfrmmain.actrename.caption"
 msgid "Move"
-msgstr "Áthely/Átnev"
+msgstr "Áthelyez"
 
 #: tfrmmain.actrenamenoask.caption
 msgid "Move/Rename files without asking for confirmation"
@@ -2774,7 +2792,7 @@ msgstr "Megnyitás a rendszer által társítottal"
 
 #: tfrmmain.actshowbuttonmenu.caption
 msgid "Show button menu"
-msgstr "Gyorsgomb menü megjelenítése"
+msgstr "Gomb menü megjelenítése"
 
 #: tfrmmain.actshowcmdlinehistory.caption
 msgid "Show command line history"
@@ -2822,7 +2840,9 @@ msgstr "Meghajtólista megnyitása"
 
 #: tfrmmain.actswitchignorelist.caption
 msgid "Enable/disable ignore list file to not show file names"
-msgstr "Kihagyási lista engedélyezése/kikapcsolása, hogy nem mutatja fájlneveket"
+msgstr ""
+"A fájlnevek figyelmen kívül hagyásának engedélyezése/letiltása a fájlnevek "
+"nem megjelenítéséhez"
 
 #: tfrmmain.actsymlink.caption
 msgid "Create Symbolic &Link..."
@@ -2851,7 +2871,7 @@ msgstr "A&rchívum(ok) tesztelése"
 #: tfrmmain.actthumbnailsview.caption
 msgctxt "tfrmmain.actthumbnailsview.caption"
 msgid "Thumbnails"
-msgstr "Miniatűrök"
+msgstr "Bélyegképek"
 
 #: tfrmmain.actthumbnailsview.hint
 msgid "Thumbnails View"
@@ -3221,7 +3241,7 @@ msgstr "&OK"
 #: tfrmmaincommandsdlg.caption
 msgctxt "tfrmmaincommandsdlg.caption"
 msgid "Select your internal command"
-msgstr "Válassz belső a belső parancsok közül"
+msgstr "Válassza ki a belső parancsot"
 
 #: tfrmmaincommandsdlg.cbcategorysortornot.text
 msgctxt "tfrmmaincommandsdlg.cbcategorysortornot.text"
@@ -3311,7 +3331,7 @@ msgstr "&OK"
 #: tfrmmaskinputdlg.chkcasesensitive.caption
 msgctxt "tfrmmaskinputdlg.chkcasesensitive.caption"
 msgid "Case sensitive"
-msgstr "Kis-/nagybetűre érzékeny"
+msgstr "Karakterérzékeny"
 
 #: tfrmmaskinputdlg.chkignoreaccentsandligatures.caption
 msgid "Ignore accents and ligatures"
@@ -3327,7 +3347,7 @@ msgstr "Maszk bevitele:"
 
 #: tfrmmaskinputdlg.lblsearchtemplate.caption
 msgid "O&r select predefined selection type:"
-msgstr "&vagy válassz előre meghatározott kiválasztási típust:"
+msgstr "&vagy válasszon előre meghatározott kiválasztási típust:"
 
 #: tfrmmkdir.caption
 msgid "Create new directory"
@@ -3339,7 +3359,7 @@ msgstr "&Bővített szintaxis"
 
 #: tfrmmkdir.lblmakedir.caption
 msgid "&Input new directory name:"
-msgstr "Add meg az új könyvtár nevét:"
+msgstr "Adja meg az új könyvtár nevét:"
 
 #: tfrmmodview.btnpath1.caption
 msgctxt "TFRMMODVIEW.BTNPATH1.CAPTION"
@@ -3398,7 +3418,7 @@ msgstr "5"
 
 #: tfrmmodview.lblquality.caption
 msgid "Quality of compress to Jpg"
-msgstr "JPG-be való sűrítés minősége"
+msgstr "JPG-be való tömörítés minősége"
 
 #: tfrmmodview.lblwidth.caption
 msgid "Width :"
@@ -3630,7 +3650,7 @@ msgstr "A≠a"
 #: tfrmmultirename.cbcasesens.hint
 msgctxt "tfrmmultirename.cbcasesens.hint"
 msgid "Case sensitive"
-msgstr "Kis-/nagybetűre érzékeny"
+msgstr "Karakterérzékeny"
 
 #: tfrmmultirename.cblog.caption
 msgid "&Log result"
@@ -3744,7 +3764,9 @@ msgstr "Double Commander"
 
 #: tfrmmultirenamewait.lblmessage.caption
 msgid "Click OK when you have closed the editor to load the changed names!"
-msgstr "Kattints az OK gombra a szerkesztő bezárása után, hogy a megváltozott nevek betöltődjenek!"
+msgstr ""
+"Kattintson az OK gombra a szerkesztő bezárása után, hogy a megváltozott "
+"nevek betöltődjenek!"
 
 #: tfrmopenwith.caption
 msgid "Choose an application"
@@ -3769,7 +3791,7 @@ msgstr "Megnyitandó fájltípus: %s"
 
 #: tfrmopenwith.milistoffiles.caption
 msgid "Multiple file names"
-msgstr "Összetett fájl nevek"
+msgstr "Összetett fájlnevek"
 
 #: tfrmopenwith.milistoffiles.hint
 #, object-pascal-format
@@ -3816,7 +3838,7 @@ msgstr "&Mégsem"
 #: tfrmoptions.btnhelp.caption
 msgctxt "tfrmoptions.btnhelp.caption"
 msgid "&Help"
-msgstr "Súgó"
+msgstr "&Súgó"
 
 #: tfrmoptions.btnok.caption
 msgctxt "TFRMOPTIONS.BTNOK.CAPTION"
@@ -3829,8 +3851,11 @@ msgid "Options"
 msgstr "Opciók"
 
 #: tfrmoptions.lblemptyeditor.caption
-msgid "Please select one of the subpages, this page does not contain any settings."
-msgstr "Kérlek, válassz egyet az alábbi oldalak közül, ez az oldal nem tartalmaz beállításokat."
+msgid ""
+"Please select one of the subpages, this page does not contain any settings."
+msgstr ""
+"Kérem, válasszon egyet az alábbi oldalak közül, ez az oldal nem tartalmaz "
+"beállításokat."
 
 #: tfrmoptionsarchivers.btnarchiveradd.caption
 msgctxt "tfrmoptionsarchivers.btnarchiveradd.caption"
@@ -3840,7 +3865,7 @@ msgstr "&Hozzáadás"
 #: tfrmoptionsarchivers.btnarchiveraddhelper.hint
 msgctxt "tfrmoptionsarchivers.btnarchiveraddhelper.hint"
 msgid "Variable reminder helper"
-msgstr "Változók súgója"
+msgstr "Változó emlékeztető segédlet"
 
 #: tfrmoptionsarchivers.btnarchiverapply.caption
 msgctxt "tfrmoptionsarchivers.btnarchiverapply.caption"
@@ -3855,27 +3880,27 @@ msgstr "M&ásolás"
 #: tfrmoptionsarchivers.btnarchiverdelete.caption
 msgctxt "tfrmoptionsarchivers.btnarchiverdelete.caption"
 msgid "Delete"
-msgstr "&Törlés"
+msgstr "Törlés"
 
 #: tfrmoptionsarchivers.btnarchiverdeletehelper.hint
 msgctxt "tfrmoptionsarchivers.btnarchiverdeletehelper.hint"
 msgid "Variable reminder helper"
-msgstr "Változók súgója"
+msgstr "Változó emlékeztető segédlet"
 
 #: tfrmoptionsarchivers.btnarchiverextracthelper.hint
 msgctxt "tfrmoptionsarchivers.btnarchiverextracthelper.hint"
 msgid "Variable reminder helper"
-msgstr "Változók súgója"
+msgstr "Változó emlékeztető segédlet"
 
 #: tfrmoptionsarchivers.btnarchiverextractwithoutpathhelper.hint
 msgctxt "tfrmoptionsarchivers.btnarchiverextractwithoutpathhelper.hint"
 msgid "Variable reminder helper"
-msgstr "Változók súgója"
+msgstr "Változó emlékeztető segédlet"
 
 #: tfrmoptionsarchivers.btnarchiverlisthelper.hint
 msgctxt "tfrmoptionsarchivers.btnarchiverlisthelper.hint"
 msgid "Variable reminder helper"
-msgstr "Változók súgója"
+msgstr "Változó emlékeztető segédlet"
 
 #: tfrmoptionsarchivers.btnarchiverother.caption
 msgctxt "tfrmoptionsarchivers.btnarchiverother.caption"
@@ -3885,7 +3910,7 @@ msgstr "Egyéb..."
 #: tfrmoptionsarchivers.btnarchiverrelativer.hint
 msgctxt "tfrmoptionsarchivers.btnarchiverrelativer.hint"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmoptionsarchivers.btnarchiverrename.caption
 msgctxt "tfrmoptionsarchivers.btnarchiverrename.caption"
@@ -3895,17 +3920,21 @@ msgstr "Át&nevezés"
 #: tfrmoptionsarchivers.btnarchiverselfextracthelper.hint
 msgctxt "tfrmoptionsarchivers.btnarchiverselfextracthelper.hint"
 msgid "Variable reminder helper"
-msgstr "Változók súgója"
+msgstr "Változó emlékeztető segédlet"
 
 #: tfrmoptionsarchivers.btnarchivertesthelper.hint
 msgctxt "tfrmoptionsarchivers.btnarchivertesthelper.hint"
 msgid "Variable reminder helper"
-msgstr "Változók súgója"
+msgstr "Változó emlékeztető segédlet"
 
 #: tfrmoptionsarchivers.bvlarchiverids.caption
 msgctxt "tfrmoptionsarchivers.bvlarchiverids.caption"
-msgid "ID's used with cm_OpenArchive to recognize archive by detecting its content and not via file extension:"
-msgstr "Az azonosítókat (ID) a cm_OpenArchive parancs használja a tömörített fájlok azonosítására tartalom szerint, a kiterjesztésük helyett:"
+msgid ""
+"ID's used with cm_OpenArchive to recognize archive by detecting its content "
+"and not via file extension:"
+msgstr ""
+"Az azonosítókat (ID) a cm_OpenArchive parancs használja a tömörített fájlok "
+"azonosítására tartalom szerint, a kiterjesztésük helyett:"
 
 #: tfrmoptionsarchivers.bvlarchiveroptions.caption
 msgctxt "tfrmoptionsarchivers.bvlarchiveroptions.caption"
@@ -3937,7 +3966,7 @@ msgstr "Kiterjesztés nélküli archívumneveket listaként használja"
 
 #: tfrmoptionsarchivers.chkhide.caption
 msgid "Show as normal files"
-msgstr ""
+msgstr "Megjelenítés normál fájlként"
 
 #: tfrmoptionsarchivers.ckbarchiverunixfileattributes.caption
 msgid "Uni&x file attributes"
@@ -4026,7 +4055,7 @@ msgstr "Listázás &kezdése (választható):"
 
 #: tfrmoptionsarchivers.lblarchiverpasswordquery.caption
 msgid "Password &query string:"
-msgstr "Jelszókérő szöveg::"
+msgstr "Jelszókérő szöveg:"
 
 #: tfrmoptionsarchivers.lblarchiverselfextract.caption
 msgid "Create self extractin&g archive:"
@@ -4117,8 +4146,11 @@ msgid "A&llow only one copy of DC at a time"
 msgstr "Cs&ak 1 DC futhat"
 
 #: tfrmoptionsbehavior.edtdrivesblacklist.hint
-msgid "Here you can enter one or more drives or mount points, separated by \";\"."
-msgstr "Megadhatsz egy vagy több meghajtót vagy csatolási pontot, pontosvesszővel (\";\") elválasztva."
+msgid ""
+"Here you can enter one or more drives or mount points, separated by \";\"."
+msgstr ""
+"Megadhat egy vagy több meghajtót vagy csatolási pontot, pontosvesszővel (\";"
+"\") elválasztva."
 
 #: tfrmoptionsbehavior.lbldrivesblacklist.caption
 msgid "Drives &blacklist"
@@ -4218,7 +4250,7 @@ msgstr "Mutató &előtér szí&ne:"
 
 #: tfrmoptionscolors.lblindthresholdcolor.caption
 msgid "Indicator &Threshold Color:"
-msgstr "In&dikátor színe:"
+msgstr "&Mutató színe:"
 
 #: tfrmoptionscolors.lblinformation.caption
 msgid "Information:"
@@ -4715,7 +4747,7 @@ msgstr "Visszaállítás"
 #: tfrmoptionscustomcolumns.btnsaveasconfigcolumns.caption
 msgctxt "TFRMOPTIONSCUSTOMCOLUMNS.BTNSAVEASCONFIGCOLUMNS.CAPTION"
 msgid "Save as"
-msgstr "Mentés mint"
+msgstr "Mentés másként"
 
 #: tfrmoptionscustomcolumns.btnsaveconfigcolumns.caption
 msgctxt "TFRMOPTIONSCUSTOMCOLUMNS.BTNSAVECONFIGCOLUMNS.CAPTION"
@@ -4729,7 +4761,8 @@ msgstr "Átszínezés engedélyezése"
 
 #: tfrmoptionscustomcolumns.cbapplychangeforallcolumns.caption
 msgid "When clicking to change something, change for all columns"
-msgstr "Ha kattintasz, hogy módosíts valamit, az módosítsa az összes oszlopot"
+msgstr ""
+"Ha valaminek a megváltoztatására kattint, az összes oszlopot megváltoztatja"
 
 #: tfrmoptionscustomcolumns.cbconfigcolumns.text
 msgctxt "TFRMOPTIONSCUSTOMCOLUMNS.CBCONFIGCOLUMNS.TEXT"
@@ -4816,8 +4849,12 @@ msgstr "Jelölő színe:"
 
 #: tfrmoptionscustomcolumns.lblpreviewtop.caption
 msgctxt "tfrmoptionscustomcolumns.lblpreviewtop.caption"
-msgid "Below is a preview. You may move cursor and select files to get immediately an actual look and feel of the various settings."
-msgstr "Alább egy előnézet látható. Mozgathatod a kurzort és kijelölhetsz fájlokat a változtatások azonnali kipróbálása érdekében."
+msgid ""
+"Below is a preview. You may move cursor and select files to get immediately "
+"an actual look and feel of the various settings."
+msgstr ""
+"Alább egy előnézet látható. Mozgathatja a kurzort és kijelölhet fájlokat a "
+"változtatások azonnali kipróbálása érdekében."
 
 #: tfrmoptionscustomcolumns.lblworkingcolumn.caption
 msgid "Settings for column:"
@@ -4869,7 +4906,7 @@ msgstr "Kézzel beírt mappa hozzáadása"
 #: tfrmoptionsdirectoryhotlist.actcollapseall.caption
 msgctxt "tfrmoptionsdirectoryhotlist.actcollapseall.caption"
 msgid "Collapse all"
-msgstr "Teljes összcsukás"
+msgstr "Teljes összecsukás"
 
 #: tfrmoptionsdirectoryhotlist.actcollapseitem.caption
 msgid "Collapse item"
@@ -4964,7 +5001,7 @@ msgstr "Ugrás az előzőre"
 #: tfrmoptionsdirectoryhotlist.actopenallbranches.caption
 msgctxt "tfrmoptionsdirectoryhotlist.actopenallbranches.caption"
 msgid "Open all branches"
-msgstr "Összes ág kinyitása"
+msgstr "Összes ág kibontása"
 
 #: tfrmoptionsdirectoryhotlist.actpaste.caption
 msgid "Paste what was cut"
@@ -4993,7 +5030,7 @@ msgstr "Cél útvonal szerkesztése"
 #: tfrmoptionsdirectoryhotlist.btnadd.caption
 msgctxt "tfrmoptionsdirectoryhotlist.btnadd.caption"
 msgid "A&dd..."
-msgstr "Hozzáad..."
+msgstr "&Hozzáad..."
 
 #: tfrmoptionsdirectoryhotlist.btnbackup.caption
 msgctxt "tfrmoptionsdirectoryhotlist.btnbackup.caption"
@@ -5003,22 +5040,22 @@ msgstr "Bi&ztonsági mentés..."
 #: tfrmoptionsdirectoryhotlist.btndelete.caption
 msgctxt "tfrmoptionsdirectoryhotlist.btndelete.caption"
 msgid "De&lete..."
-msgstr "Törlés..."
+msgstr "&Törlés..."
 
 #: tfrmoptionsdirectoryhotlist.btnexport.caption
 msgctxt "tfrmoptionsdirectoryhotlist.btnexport.caption"
 msgid "E&xport..."
-msgstr "Exportálás..."
+msgstr "&Exportálás..."
 
 #: tfrmoptionsdirectoryhotlist.btnimport.caption
 msgctxt "tfrmoptionsdirectoryhotlist.btnimport.caption"
 msgid "Impo&rt..."
-msgstr "Importálás..."
+msgstr "&Importálás..."
 
 #: tfrmoptionsdirectoryhotlist.btninsert.caption
 msgctxt "tfrmoptionsdirectoryhotlist.btninsert.caption"
 msgid "&Insert..."
-msgstr "Beszúrás..."
+msgstr "&Beszúrás..."
 
 #: tfrmoptionsdirectoryhotlist.btnmiscellaneous.caption
 msgid "&Miscellaneous..."
@@ -5027,7 +5064,7 @@ msgstr "E&gyebek..."
 #: tfrmoptionsdirectoryhotlist.btnrelativepath.hint
 msgctxt "TFRMOPTIONSDIRECTORYHOTLIST.BTNRELATIVEPATH.HINT"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmoptionsdirectoryhotlist.btnrelativetarget.hint
 msgid "Some functions to select appropriate target"
@@ -5098,8 +5135,11 @@ msgid "Scan all &hotdir's path to validate the ones that actually exist"
 msgstr "&Kedvenc könyvtárak átfésülése majd a létezők érvényesítése"
 
 #: tfrmoptionsdirectoryhotlist.midetectifpathtargetexist.caption
-msgid "&Scan all hotdir's path && target to validate the ones that actually exist"
-msgstr "Kedvenc könyvtárak és &Cél könyvtáraik átfésülése majd a létezők érvényesítése"
+msgid ""
+"&Scan all hotdir's path && target to validate the ones that actually exist"
+msgstr ""
+"Kedvenc könyvtárak és &Cél könyvtáraik átfésülése majd a létezők "
+"érvényesítése"
 
 #: tfrmoptionsdirectoryhotlist.miexporttohotlistfile.caption
 msgid "to a Directory &Hotlist file (.hotlist)"
@@ -5177,7 +5217,7 @@ msgstr "...a kijelölt almenü(k) tartalmát, azok &minden almenüjével"
 #: tfrmoptionsdirectoryhotlist.mitestresultinghotlistmenu.caption
 msgctxt "tfrmoptionsdirectoryhotlist.mitestresultinghotlistmenu.caption"
 msgid "Test resultin&g menu"
-msgstr "Kapott menü tesztelése"
+msgstr "&Kapott menü tesztelése"
 
 #: tfrmoptionsdirectoryhotlist.mitweakpath.caption
 msgid "Tweak &path"
@@ -5204,7 +5244,8 @@ msgid "Target"
 msgstr "Cél"
 
 #: tfrmoptionsdirectoryhotlistextra.gbdirectoryhotlistoptionsextra.caption
-msgctxt "tfrmoptionsdirectoryhotlistextra.gbdirectoryhotlistoptionsextra.caption"
+msgctxt ""
+"tfrmoptionsdirectoryhotlistextra.gbdirectoryhotlistoptionsextra.caption"
 msgid "Paths"
 msgstr "Útvonalak"
 
@@ -5227,12 +5268,17 @@ msgid "From all the supported formats, ask which one to use every time"
 msgstr "Az ismert formátumokból - mindig kérdezzen rá, melyikből"
 
 #: tfrmoptionsdragdrop.cbdraganddropsaveunicodetextinuft8.caption
-msgid "When saving Unicode text, save it in UTF8 format (will be UTF16 otherwise)"
+msgid ""
+"When saving Unicode text, save it in UTF8 format (will be UTF16 otherwise)"
 msgstr "Unicode szöveg mentése UTF8 formátumban (UTF16 helyett)"
 
 #: tfrmoptionsdragdrop.cbdraganddroptextautofilename.caption
-msgid "When dropping text, generate filename automatically (otherwise will prompt the user)"
-msgstr "Szöveg ejtésekor a fájlnév automatikus létrehozása (máskülönben a felhasználótól kéri)"
+msgid ""
+"When dropping text, generate filename automatically (otherwise will prompt "
+"the user)"
+msgstr ""
+"Szöveg ejtésekor a fájlnév automatikus létrehozása (máskülönben a "
+"felhasználótól kéri)"
 
 #: tfrmoptionsdragdrop.cbshowconfirmationdialog.caption
 msgid "&Show confirmation dialog after drop"
@@ -5240,19 +5286,24 @@ msgstr "Megerő&sítő ablak megjelenítése \"ejtés\" után"
 
 #: tfrmoptionsdragdrop.gbtextdraganddroprelatedoptions.caption
 msgid "When drag && dropping text into panels:"
-msgstr "Ha szöveget húzol (\"húzd és ejtsd\") a panelekre:"
+msgstr "Ha szöveget húz (\"húzd és ejtsd\") a panelekre:"
 
 #: tfrmoptionsdragdrop.lblmostdesiredtextformat1.caption
 msgid "Place the most desired format on top of list (use dag && drop):"
-msgstr "Húzd a legkívánatosabb formátumot előre \"húzd és ejtsd\" művelettel:"
+msgstr "Húzza a legkívánatosabb formátumot előre \"húzd és ejtsd\" művelettel:"
 
 #: tfrmoptionsdragdrop.lblmostdesiredtextformat2.caption
 msgid "(if the most desired is not present, we'll take second one and so on)"
-msgstr "(ha a legkívánatosabb nem elérhető, megpróbáljuk a másodikkal, harmadikkal stb.)"
+msgstr ""
+"(ha a legkívánatosabb nem elérhető, megpróbáljuk a másodikkal, harmadikkal "
+"stb.)"
 
 #: tfrmoptionsdragdrop.lblwarningforaskformat.caption
-msgid "(will not work with some source application, so try to uncheck if problem)"
-msgstr "(esetleg egyes forrás alkalmazásokkal nem működik, távolítsd el a jelölőt, ha problémás)"
+msgid ""
+"(will not work with some source application, so try to uncheck if problem)"
+msgstr ""
+"(esetleg egyes forrás alkalmazásokkal nem működik, távolítsa el a jelölőt, "
+"ha problémás)"
 
 #: tfrmoptionsdriveslistbutton.cbshowfilesystem.caption
 msgid "Show &file system"
@@ -5275,16 +5326,24 @@ msgid "Auto Indent"
 msgstr "Automatikus behúzás"
 
 #: tfrmoptionseditor.chkautoindent.hint
-msgid "Allows to indent the caret, when new line is created with <Enter>, with the same amount of leading white space as the preceding line"
-msgstr "Behúzza a kurzort új sor <Enter> hozzáadása esetén , éppen akkora mértékben, amekkora az előző sorban szerepelt"
+msgid ""
+"Allows to indent the caret, when new line is created with <Enter>, with the "
+"same amount of leading white space as the preceding line"
+msgstr ""
+"Behúzza a kurzort új sor <Enter> hozzáadása esetén, éppen akkora mértékben, "
+"amekkora az előző sorban szerepelt"
 
 #: tfrmoptionseditor.chkgroupundo.caption
 msgid "Group Undo"
 msgstr "Csoportos visszavonás"
 
 #: tfrmoptionseditor.chkgroupundo.hint
-msgid "All continuous changes of the same type will be processed in one call instead of undoing/redoing each one"
-msgstr "Az azonos típusú folyamatos változtatások feldolgozása egy hívásban történik, ahelyett, hogy mindegyiket visszavonná/újra megtenné"
+msgid ""
+"All continuous changes of the same type will be processed in one call "
+"instead of undoing/redoing each one"
+msgstr ""
+"Az azonos típusú folyamatos változtatások feldolgozása egy hívásban "
+"történik, ahelyett, hogy mindegyiket visszavonná/újra megtenné"
 
 #: tfrmoptionseditor.chkrightedge.caption
 msgid "Right margin:"
@@ -5292,15 +5351,15 @@ msgstr "Jobb margó:"
 
 #: tfrmoptionseditor.chkscrollpastendline.caption
 msgid "Caret past end of line"
-msgstr "Sorvége mögé pozícionálás"
+msgstr "Sorvége mögé pozicionálás"
 
 #: tfrmoptionseditor.chkscrollpastendline.hint
 msgid "Allows caret to go into empty space beyond end-of-line position"
-msgstr "Engedélyezi a kurzor pozícionálását a sorvége mögé is"
+msgstr "Engedélyezi a kurzor pozicionálását a sorvége mögé is"
 
 #: tfrmoptionseditor.chkshowspecialchars.caption
 msgid "Show special characters"
-msgstr "Speciális karaktekek megjelenítése"
+msgstr "Speciális karakterek megjelenítése"
 
 #: tfrmoptionseditor.chkshowspecialchars.hint
 msgid "Shows special characters for spaces and tabulations"
@@ -5311,23 +5370,33 @@ msgid "Smart Tabs"
 msgstr "Okos tabulátor"
 
 #: tfrmoptionseditor.chksmarttabs.hint
-msgid "When using <Tab> key, caret will go to the next non-space character of the previous line"
-msgstr "TAB használata esetén a kurzor az előző sor első nem üres karakterének oszlopába ugrik"
+msgid ""
+"When using <Tab> key, caret will go to the next non-space character of the "
+"previous line"
+msgstr ""
+"<TAB> használata esetén a kurzor az előző sor első nem üres karakterének "
+"oszlopába ugrik"
 
 #: tfrmoptionseditor.chktabindent.caption
 msgid "Tab indents blocks"
 msgstr "Tömbösített behúzás"
 
 #: tfrmoptionseditor.chktabindent.hint
-msgid "When active <Tab> and <Shift+Tab> act as block indent, unindent when text is selected"
-msgstr "Ekkor a TAB és <Shift + TAB> a kijelölt szövegrész beljebb- vagy kijjebb húzását eredményezi"
+msgid ""
+"When active <Tab> and <Shift+Tab> act as block indent, unindent when text is "
+"selected"
+msgstr ""
+"Ekkor a <TAB> és <Shift + TAB> a kijelölt szövegrész beljebb- vagy kijjebb "
+"húzását eredményezi"
 
 #: tfrmoptionseditor.chktabstospaces.caption
 msgid "Use spaces instead tab characters"
 msgstr "Szóköz használata behúzáshoz TAB helyett"
 
 #: tfrmoptionseditor.chktabstospaces.hint
-msgid "Converts tab characters to a specified number of space characters (when entering)"
+msgid ""
+"Converts tab characters to a specified number of space characters (when "
+"entering)"
 msgstr "A TAB karaktereket a megadott számú szóközre alakítja (gépelés közben)"
 
 #: tfrmoptionseditor.chktrimtrailingspaces.caption
@@ -5336,11 +5405,15 @@ msgstr "Sorvégi szóközök törlése"
 
 #: tfrmoptionseditor.chktrimtrailingspaces.hint
 msgid "Auto delete trailing spaces, this applies only to edited lines"
-msgstr "A sorvégi szóközök automatikus törlése - csak a szerkesztett sorokra vonatkozik"
+msgstr ""
+"A sorvégi szóközök automatikus törlése - csak a szerkesztett sorokra "
+"vonatkozik"
 
 #: tfrmoptionseditor.edtabwidth.hint
 msgctxt "tfrmoptionseditor.edtabwidth.hint"
-msgid "Please note that the \"Smart Tabs\" option takes precedence over the tabulation to be performed"
+msgid ""
+"Please note that the \"Smart Tabs\" option takes precedence over the "
+"tabulation to be performed"
 msgstr "Vigyázat, az \"Okos tabulátor\" opció felülbírálja ezt a beállítást!"
 
 #: tfrmoptionseditor.gbinternaleditor.caption
@@ -5349,15 +5422,17 @@ msgstr "Belső szerkesztő beállításai"
 
 #: tfrmoptionseditor.lblblockindent.caption
 msgid "Block indent:"
-msgstr "Blokk behúzás::"
+msgstr "Blokk behúzása:"
 
 #: tfrmoptionseditor.lbltabwidth.caption
 msgid "Tab width:"
-msgstr "Tabulátor szélesség:"
+msgstr "Tabulátor szélessége:"
 
 #: tfrmoptionseditor.lbltabwidth.hint
 msgctxt "tfrmoptionseditor.lbltabwidth.hint"
-msgid "Please note that the \"Smart Tabs\" option takes precedence over the tabulation to be performed"
+msgid ""
+"Please note that the \"Smart Tabs\" option takes precedence over the "
+"tabulation to be performed"
 msgstr "Vigyázat, az \"Okos tabulátor\" opció felülbírálja ezt a beállítást!"
 
 #: tfrmoptionseditorcolors.backgroundlabel.caption
@@ -5399,7 +5474,7 @@ msgstr "S&zöveg-megjelölés"
 
 #: tfrmoptionseditorcolors.tbtnglobal.caption
 msgid "Use (and edit) &global scheme settings"
-msgstr "&Globalis vázlat használata (és módosítása)"
+msgstr "&Globális vázlat használata (és módosítása)"
 
 #: tfrmoptionseditorcolors.tbtnlocal.caption
 msgid "Use &local scheme settings"
@@ -5724,7 +5799,7 @@ msgstr "Klónozás"
 #: tfrmoptionsfileassoc.btncommands.hint
 msgctxt "tfrmoptionsfileassoc.btncommands.hint"
 msgid "Select your internal command"
-msgstr "Válassz belső a belső parancsok közül"
+msgstr "Válassza ki a belső parancsot"
 
 #: tfrmoptionsfileassoc.btndownact.caption
 msgctxt "tfrmoptionsfileassoc.btndownact.caption"
@@ -5754,7 +5829,7 @@ msgstr "Változók súgója"
 #: tfrmoptionsfileassoc.btnrelativecommand.hint
 msgctxt "tfrmoptionsfileassoc.btnrelativecommand.hint"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmoptionsfileassoc.btnremoveact.caption
 msgid "Remo&ve"
@@ -5777,7 +5852,7 @@ msgstr "Át&nevezés"
 #: tfrmoptionsfileassoc.btnstartpathpathhelper.hint
 msgctxt "tfrmoptionsfileassoc.btnstartpathpathhelper.hint"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmoptionsfileassoc.btnstartpathvarhelper.hint
 msgctxt "tfrmoptionsfileassoc.btnstartpathvarhelper.hint"
@@ -5791,19 +5866,27 @@ msgstr "&Fel"
 
 #: tfrmoptionsfileassoc.destartpath.hint
 msgid "Starting path of the command. Never quote this string."
-msgstr "Parancs indító útvonala. Ne tedd idézőjelbe!"
+msgstr "Parancs indító útvonala. Ne tegye idézőjelbe!"
 
 #: tfrmoptionsfileassoc.edbactionname.hint
-msgid "Name of the action. It is never passed to the system, it's just a mnemonic name chosen by you, for you"
-msgstr "A művelet neve. Nem kerül továbbításra a rendszer számára, ez csupán egy tetszőleges név a könnyebb megjegyezhetőség miatt"
+msgid ""
+"Name of the action. It is never passed to the system, it's just a mnemonic "
+"name chosen by you, for you"
+msgstr ""
+"A művelet neve. Nem kerül továbbításra a rendszer számára, ez csupán egy "
+"tetszőleges név a könnyebb megjegyezhetőség miatt"
 
 #: tfrmoptionsfileassoc.edtparams.hint
-msgid "Parameter to pass to the command. Long filename with spaces should be quoted (manually entering)."
-msgstr "A parancs számára átadandó paraméter. A szóközt tartalmazó hosszú fájlneveket idézőjelbe kell tenni (kézzel beírva)."
+msgid ""
+"Parameter to pass to the command. Long filename with spaces should be quoted "
+"(manually entering)."
+msgstr ""
+"A parancs számára átadandó paraméter. A szóközt tartalmazó hosszú "
+"fájlneveket idézőjelbe kell tenni (kézzel beírva)."
 
 #: tfrmoptionsfileassoc.fnecommand.hint
 msgid "Command to execute. Never quote this string."
-msgstr "Futtatandó parancs. Ne tedd idézőjelbe!"
+msgstr "Futtatandó parancs. Ne tegye idézőjelbe!"
 
 #: tfrmoptionsfileassoc.gbactiondescription.caption
 msgid "Action description"
@@ -5927,7 +6010,9 @@ msgstr "Kattintson ide az ikon cseréléséhez!"
 
 #: tfrmoptionsfileassocextra.btnpathtoberelativetoall.caption
 msgid "Apply current settings to all current configured filenames and paths"
-msgstr "Jelenlegi beállítás alkalmazása minden most konfigurált fájlnévre és útvonalra"
+msgstr ""
+"Jelenlegi beállítás alkalmazása minden most konfigurált fájlnévre és "
+"útvonalra"
 
 #: tfrmoptionsfileassocextra.cbdefaultcontextactions.caption
 msgid "Default context actions (View/Edit)"
@@ -5936,7 +6021,7 @@ msgstr "Alapértelmezett környezeti műveletek (Megtekintés/Szerkesztés)"
 #: tfrmoptionsfileassocextra.cbexecuteviashell.caption
 msgctxt "tfrmoptionsfileassocextra.cbexecuteviashell.caption"
 msgid "Execute via shell"
-msgstr "Futtatás rendszerhélyban"
+msgstr "Futtatás rendszerhéjban"
 
 #: tfrmoptionsfileassocextra.cbextendedcontextmenu.caption
 msgid "Extended context menu"
@@ -5948,12 +6033,17 @@ msgstr "Fájltársítási beállítások"
 
 #: tfrmoptionsfileassocextra.cboffertoaddtofileassociations.caption
 msgid "Offer to add selection to file association when not included already"
-msgstr "A fájltársításokhoz történő hozzáadás felajánlása, ha még nem társított"
+msgstr ""
+"A fájltársításokhoz történő hozzáadás felajánlása, ha még nem társított"
 
 #: tfrmoptionsfileassocextra.cboffertoaddtofileassociations.hint
 msgctxt "tfrmoptionsfileassocextra.cboffertoaddtofileassociations.hint"
-msgid "When accessing file association, offer to add current selected file if not already included in a configured file type"
-msgstr "A Fájltársítások megnyitásakor felajánlja az addig ismeretlen kiterjesztésű fájlok felvételét meglévő vagy új csoportba"
+msgid ""
+"When accessing file association, offer to add current selected file if not "
+"already included in a configured file type"
+msgstr ""
+"A Fájltársítások megnyitásakor felajánlja az addig ismeretlen kiterjesztésű "
+"fájlok felvételét meglévő vagy új csoportba"
 
 #: tfrmoptionsfileassocextra.cbopensystemwithterminalclose.caption
 msgctxt "tfrmoptionsfileassocextra.cbopensystemwithterminalclose.caption"
@@ -5991,7 +6081,8 @@ msgstr "Útvonalak"
 
 #: tfrmoptionsfileassocextra.lbfileassocfilenamestyle.caption
 msgctxt "tfrmoptionsfileassocextra.lbfileassocfilenamestyle.caption"
-msgid "Way to set paths when adding elements for icons, commands and starting paths:"
+msgid ""
+"Way to set paths when adding elements for icons, commands and starting paths:"
 msgstr "Útvonalkezelés módja új ikon, parancs vagy kezdőútvonal hozzáadásakor:"
 
 #: tfrmoptionsfileassocextra.lblapplysettingsfor.caption
@@ -6042,11 +6133,12 @@ msgstr "Csak a &fájlnév kiválasztása átnevezés előtt (a kiterjesztést ne
 
 #: tfrmoptionsfileoperations.cbshowcopytabselectpanel.caption
 msgid "Sho&w tab select panel in copy/move dialog"
-msgstr "Fül kiválasztási panel megjelenítése a másol/áthelyez párbeszédablakban"
+msgstr ""
+"Fül kiválasztási panel megjelenítése a másol/áthelyez párbeszédablakban"
 
 #: tfrmoptionsfileoperations.cbskipfileoperror.caption
 msgid "S&kip file operations errors and write them to log window"
-msgstr "Fájlműveleti hibá&k átugrása és írja naplóablakba"
+msgstr "Fájlműveleti hibá&k átugrása és naplóablakba írása"
 
 #: tfrmoptionsfileoperations.cbtestarchiveconfirmation.caption
 msgid "Test archive operation"
@@ -6167,8 +6259,12 @@ msgid "Inactive Text Color:"
 msgstr "Inaktív szövegszín:"
 
 #: tfrmoptionsfilepanelscolors.lblpreview.caption
-msgid "Below is a preview. You may move cursor, select file and get immediately an actual look and feel of the various settings."
-msgstr "Alább egy előnézet látható. Mozgathatod a kurzort és kijelölhetsz fájlokat a változtatások azonnali kipróbálása érdekében."
+msgid ""
+"Below is a preview. You may move cursor, select file and get immediately an "
+"actual look and feel of the various settings."
+msgstr ""
+"Alább egy előnézet látható. Mozgathatod a kurzort és kijelölhetsz fájlokat a "
+"változtatások azonnali kipróbálása érdekében."
 
 #: tfrmoptionsfilepanelscolors.lbltextcolor.caption
 msgid "T&ext Color:"
@@ -6234,7 +6330,7 @@ msgstr "&Bájt:"
 
 #: tfrmoptionsfilesviews.lblcasesensitivity.caption
 msgid "Case s&ensitivity:"
-msgstr "Kis-nagyb&etű érzékenység:"
+msgstr "Karakt&erérzékenység:"
 
 #: tfrmoptionsfilesviews.lbldatetimeexample.caption
 msgid "Incorrect format"
@@ -6286,7 +6382,7 @@ msgstr "Rendezé&si módszer:"
 
 #: tfrmoptionsfilesviews.lblterabyte.caption
 msgid "&Terabyte:"
-msgstr "&Terabájt:"
+msgstr "&Terrabájt:"
 
 #: tfrmoptionsfilesviews.lblupdatedfilesposition.caption
 msgid "&Move updated files:"
@@ -6303,12 +6399,14 @@ msgid "&Help"
 msgstr "&Súgó"
 
 #: tfrmoptionsfilesviewscomplement.cbdblclicktoparent.caption
-msgid "Enable changing to &parent folder when double-clicking on empty part of file view"
+msgid ""
+"Enable changing to &parent folder when double-clicking on empty part of file "
+"view"
 msgstr "Szülő mappába ugrás a fájl panel egy üres területére du&plán kattintva"
 
 #: tfrmoptionsfilesviewscomplement.cbdelayloadingtabs.caption
 msgid "Do&n't load file list until a tab is activated"
-msgstr "&Ne töltse be addig a fájl listát amíg a fül aktív"
+msgstr "&Ne töltse be addig a fájl listát, amíg a fül aktív"
 
 #: tfrmoptionsfilesviewscomplement.cbdirbrackets.caption
 msgid "S&how square brackets around directories"
@@ -6335,12 +6433,19 @@ msgid "Show s&ystem and hidden files"
 msgstr "R&ejtett/Rendszer fájlok megjelenítése"
 
 #: tfrmoptionsfilesviewscomplement.cbspacemovesdown.caption
-msgid "&When selecting files with <SPACEBAR>, move down to next file (as with <INSERT>)"
-msgstr "Szó&közzel történő kijelöléskor automatikus léptetés (mint <INSERT> estén)"
+msgid ""
+"&When selecting files with <SPACEBAR>, move down to next file (as with "
+"<INSERT>)"
+msgstr ""
+"Szó&közzel történő kijelöléskor automatikus léptetés (mint <INSERT> esetén)"
 
 #: tfrmoptionsfilesviewscomplement.chkmarkmaskfilterwindows.caption
-msgid "Windows style filter when marking files (\"*.*\" also select files without extension, etc.)"
-msgstr "Windows stílusú működés a fájlok megjelöléséhez (a \"*.*\" a kiterjesztés nélküli fájlokon is működik, stb.)"
+msgid ""
+"Windows style filter when marking files (\"*.*\" also select files without "
+"extension, etc.)"
+msgstr ""
+"Windows stílusú működés a fájlok megjelöléséhez (a \"*.*\" a kiterjesztés "
+"nélküli fájlokon is működik, stb.)"
 
 #: tfrmoptionsfilesviewscomplement.chkmarkmaskshowattribute.caption
 msgid "Use an independent attribute filter in mask input dialog each time"
@@ -6716,7 +6821,9 @@ msgstr "Te&rminálablak megjelenítése"
 
 #: tfrmoptionslayout.cbtwodiskpanels.caption
 msgid "Show two drive button bars (fi&xed width, above file windows)"
-msgstr "Két meghajtó gombsor megjelenítése (rögzített szélességben, az ablakok felett)"
+msgstr ""
+"Két meghajtó gombsor megjelenítése (rögzített szélességben, az ablakok "
+"felett)"
 
 #: tfrmoptionslayout.chkshowmiddletoolbar.caption
 msgid "Show middle toolbar"
@@ -6853,12 +6960,12 @@ msgstr "Fig&yelmeztető üzenetek megjelenítése (csak \"OK\" gomb)"
 
 #: tfrmoptionsmisc.chkthumbsave.caption
 msgid "&Save thumbnails in cache"
-msgstr "Miniatűrök gyor&sítótárazása"
+msgstr "Bélyegképek gyor&sítótárazása"
 
 #: tfrmoptionsmisc.dblthumbnails.caption
 msgctxt "TFRMOPTIONSMISC.DBLTHUMBNAILS.CAPTION"
 msgid "Thumbnails"
-msgstr "Miniatűrök"
+msgstr "Bélyegképek"
 
 #: tfrmoptionsmisc.gbfilecomments.caption
 msgid "File comments (descript.ion)"
@@ -6870,7 +6977,7 @@ msgstr "TC importot és exportot illetően:"
 
 #: tfrmoptionsmisc.lbldefaultencoding.caption
 msgid "&Default single-byte text encoding:"
-msgstr "&Alapértelmezett egybájtos szövegkódolás:"
+msgstr "&Alapértelmezett egy bájtos szövegkódolás:"
 
 #: tfrmoptionsmisc.lbldescrdefaultencoding.caption
 msgctxt "TFRMOPTIONSMISC.LBLDESCRDEFAULTENCODING.CAPTION"
@@ -6917,7 +7024,7 @@ msgstr "Az ikonra &kattintva"
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
-msgstr "Megnyitás ezzel ..."
+msgstr "Megnyitás ezzel"
 
 #: tfrmoptionsmouse.gbscrolling.caption
 msgid "Scrolling"
@@ -6941,7 +7048,7 @@ msgstr "Sorró&l sorra"
 
 #: tfrmoptionsmouse.rbscrolllinebylinecursor.caption
 msgid "Line by line &with cursor movement"
-msgstr "Sorról sorra k&urzormozgással"
+msgstr "Sorról sorra kurzormozgással"
 
 #: tfrmoptionsmouse.rbscrollpagebypage.caption
 msgid "&Page by page"
@@ -6958,7 +7065,7 @@ msgstr "Egy kattintás (csak könyvtárakhoz, fájlok két kattintással)"
 #: tfrmoptionsmultirename.btnmulrenlogfilenamerelative.hint
 msgctxt "tfrmoptionsmultirename.btnmulrenlogfilenamerelative.hint"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmoptionsmultirename.btnmulrenlogfilenameview.hint
 msgctxt "tfrmoptionsmultirename.btnmulrenlogfilenameview.hint"
@@ -7053,8 +7160,12 @@ msgstr "Fájlnév"
 
 #: tfrmoptionspluginsdsx.lblplugindescription.caption
 msgctxt "tfrmoptionspluginsdsx.lblplugindescription.caption"
-msgid "Searc&h plugins allow one to use alternative search algorithms or external tools (like \"locate\", etc.)"
-msgstr "A kereső &beépülők egyéb keresési algoritmusokat és külső eszközöket biztosítanak (mint pl.: \"hely felkeresése\" stb.)"
+msgid ""
+"Searc&h plugins allow one to use alternative search algorithms or external "
+"tools (like \"locate\", etc.)"
+msgstr ""
+"A kereső &beépülők egyéb keresési algoritmusokat és külső eszközöket "
+"biztosítanak (mint pl.: \"hely felkeresése\", stb.)"
 
 #: tfrmoptionspluginsdsx.stgplugins.columns[0].title.caption
 msgctxt "tfrmoptionspluginsdsx.stgplugins.columns[0].title.caption"
@@ -7128,8 +7239,13 @@ msgstr "Fájlnév"
 
 #: tfrmoptionspluginswdx.lblplugindescription.caption
 msgctxt "tfrmoptionspluginswdx.lblplugindescription.caption"
-msgid "Content plu&gins allow one to display extended file details like mp3 tags or image attributes in file lists, or use them in search and multi-rename tool"
-msgstr "A tartalmi beépülők lehetővé teszik kiegészítő fájlinformációk megjelenítését, mint pl.: mp3 tag vagy kép attribútumok a fájl listában, de használhatók kereséshez és csoportos átnevezéshez is"
+msgid ""
+"Content plu&gins allow one to display extended file details like mp3 tags or "
+"image attributes in file lists, or use them in search and multi-rename tool"
+msgstr ""
+"A tartalmi beépülők lehetővé teszik kiegészítő fájlinformációk "
+"megjelenítését, mint pl.: mp3 tag vagy kép attribútumok a fájl listában, de "
+"használhatók kereséshez és csoportos átnevezéshez is"
 
 #: tfrmoptionspluginswdx.stgplugins.columns[0].title.caption
 msgctxt "tfrmoptionspluginswdx.stgplugins.columns[0].title.caption"
@@ -7153,8 +7269,12 @@ msgstr "Fájl neve"
 
 #: tfrmoptionspluginswfx.lblplugindescription.caption
 msgctxt "tfrmoptionspluginswfx.lblplugindescription.caption"
-msgid "Fi&le system plugins allow access to disks inaccessible by operating system or to external devices like Palm/PocketPC."
-msgstr "A fáj&lrendszer beépülők az operációs rendszer számára elérhetetlen lemezek és külső eszközök hozzáférését biztosítják, mint pl.: Palm/PocketPC."
+msgid ""
+"Fi&le system plugins allow access to disks inaccessible by operating system "
+"or to external devices like Palm/PocketPC."
+msgstr ""
+"A fáj&lrendszer beépülők az operációs rendszer számára elérhetetlen lemezek "
+"és külső eszközök hozzáférését biztosítják, mint pl.: Palm/PocketPC."
 
 #: tfrmoptionspluginswfx.stgplugins.columns[0].title.caption
 msgctxt "tfrmoptionspluginswfx.stgplugins.columns[0].title.caption"
@@ -7178,8 +7298,12 @@ msgstr "Fájl neve"
 
 #: tfrmoptionspluginswlx.lblplugindescription.caption
 msgctxt "tfrmoptionspluginswlx.lblplugindescription.caption"
-msgid "Vie&wer plugins allow one to display file formats like images, spreadsheets, databases etc. in Viewer (F3, Ctrl+Q)"
-msgstr "A né&zőke beépülők képek, táblázatok, adatbázisok stb. megtekintését teszik lehetővé a Nézőkében (F3, Ctrl+Q)"
+msgid ""
+"Vie&wer plugins allow one to display file formats like images, spreadsheets, "
+"databases etc. in Viewer (F3, Ctrl+Q)"
+msgstr ""
+"A né&zőke beépülők képek, táblázatok, adatbázisok, stb. megtekintését teszik "
+"lehetővé a Nézőkében (F3, Ctrl+Q)"
 
 #: tfrmoptionspluginswlx.stgplugins.columns[0].title.caption
 msgctxt "tfrmoptionspluginswlx.stgplugins.columns[0].title.caption"
@@ -7216,7 +7340,7 @@ msgstr "Opciók"
 
 #: tfrmoptionsquicksearchfilter.gbexactnamematch.caption
 msgid "Exact name match"
-msgstr "Teljes &név egyezés"
+msgstr "Teljes név egyezés"
 
 #: tfrmoptionsquicksearchfilter.rgpsearchcase.caption
 msgid "Search case"
@@ -7327,8 +7451,11 @@ msgid "Goto to Favorite Tabs Configuration after saving a new one"
 msgstr "Ugrás a Kedvenc fülek beállításaira új fájlba mentés esetén"
 
 #: tfrmoptionstabsextra.cbusefavoritetabsextraoptions.caption
-msgid "Enable Favorite Tabs extra options (select target side when restore, etc.)"
-msgstr "Kedvenc fülek extra opciók engedélyezése (cél panel kiválasztása visszaállításkor stb.)"
+msgid ""
+"Enable Favorite Tabs extra options (select target side when restore, etc.)"
+msgstr ""
+"Kedvenc fülek extra opciók engedélyezése (cél panel kiválasztása "
+"visszaállításkor stb.)"
 
 #: tfrmoptionstabsextra.gbdefaulttabsavedrestoration.caption
 msgid "Default extra settings when saving new Favorite Tabs:"
@@ -7361,13 +7488,21 @@ msgstr "Alapértelmezett menü pozíció új Kedvenc fülek mentéskor:"
 
 #: tfrmoptionsterminal.edrunintermcloseparams.hint
 msgctxt "TFRMOPTIONSTERMINAL.EDRUNINTERMCLOSEPARAMS.HINT"
-msgid "{command} should normally be present here to reflect the command to be run in terminal"
-msgstr "A(z) \"{command}\" kifejezésnek általában itt kell lennie, hogy a terminálban futtatandó parancs ténylegesen átadásra kerüljön"
+msgid ""
+"{command} should normally be present here to reflect the command to be run "
+"in terminal"
+msgstr ""
+"A(z) \"{command}\" kifejezésnek általában itt kell lennie, hogy a "
+"terminálban futtatandó parancs ténylegesen átadásra kerüljön"
 
 #: tfrmoptionsterminal.edrunintermstayopenparams.hint
 msgctxt "TFRMOPTIONSTERMINAL.EDRUNINTERMSTAYOPENPARAMS.HINT"
-msgid "{command} should normally be present here to reflect the command to be run in terminal"
-msgstr "A(z) \"{command}\" kifejezésnek általában itt kell lennie, hogy a terminálban futtatandó parancs ténylegesen átadásra kerüljön"
+msgid ""
+"{command} should normally be present here to reflect the command to be run "
+"in terminal"
+msgstr ""
+"A(z) \"{command}\" kifejezésnek általában itt kell lennie, hogy a "
+"terminálban futtatandó parancs ténylegesen átadásra kerüljön"
 
 #: tfrmoptionsterminal.gbjustrunterminal.caption
 msgid "Command for just running terminal:"
@@ -7375,11 +7510,15 @@ msgstr "A terminál alkalmazás indításához szükséges parancs:"
 
 #: tfrmoptionsterminal.gbruninterminalclose.caption
 msgid "Command for running a command in terminal and close after:"
-msgstr "Terminál ablakban történő indításához szükséges parancs - bezárás, amint kész:"
+msgstr ""
+"Terminál ablakban történő indításához szükséges parancs - bezárás, amint "
+"kész:"
 
 #: tfrmoptionsterminal.gbruninterminalstayopen.caption
 msgid "Command for running a command in terminal and stay open:"
-msgstr "Terminál ablakban történő indításához szükséges parancs - terminál nyitva marad, amint kész:"
+msgstr ""
+"Terminál ablakban történő indításához szükséges parancs - terminál nyitva "
+"marad, amint kész:"
 
 #: tfrmoptionsterminal.lbrunintermclosecmd.caption
 msgctxt "TFRMOPTIONSTERMINAL.LBRUNINTERMCLOSECMD.CAPTION"
@@ -7456,8 +7595,11 @@ msgid "Suggest"
 msgstr "Javasol"
 
 #: tfrmoptionstoolbarbase.btnsuggestiontooltip.hint
-msgid "Have DC suggest the tooltip based on button type, command and parameters"
-msgstr "A DC javasolja az buboréktippet a gomb típusa, a parancs és a paraméterek alapján"
+msgid ""
+"Have DC suggest the tooltip based on button type, command and parameters"
+msgstr ""
+"A DC javasolja az buboréktippet a gomb típusa, a parancs és a paraméterek "
+"alapján"
 
 #: tfrmoptionstoolbarbase.cbflatbuttons.caption
 msgctxt "tfrmoptionstoolbarbase.CBFLATBUTTONS.CAPTION"
@@ -7473,8 +7615,12 @@ msgid "Sho&w captions"
 msgstr "&Feliratok megjelenítése"
 
 #: tfrmoptionstoolbarbase.edtinternalparameters.hint
-msgid "Enter command parameters, each in a separate line. Press F1 to see help on parameters."
-msgstr "Add meg a parancs paramétereit, mindegyiket külön sorban. Nyomd meg az F1 billentyűt a paraméterek súgójához."
+msgid ""
+"Enter command parameters, each in a separate line. Press F1 to see help on "
+"parameters."
+msgstr ""
+"Adja meg a parancs paramétereit, mindegyiket külön sorban. Nyomja meg az F1 "
+"billentyűt a paraméterek súgójához."
 
 #: tfrmoptionstoolbarbase.gbgroupbox.caption
 msgid "Appearance"
@@ -7570,7 +7716,7 @@ msgstr "Jelenlegi eszköztár..."
 #: tfrmoptionstoolbarbase.miexportcurrenttodcbar.caption
 msgctxt "tfrmoptionstoolbarbase.MIEXPORTCURRENTTODCBAR.CAPTION"
 msgid "to a Toolbar File (.toolbar)"
-msgstr "Eszkötár fájlba (.toolbar)"
+msgstr "eszköztár fájlba (.toolbar)"
 
 #: tfrmoptionstoolbarbase.miexportcurrenttotcbarkeep.caption
 msgctxt "tfrmoptionstoolbarbase.MIEXPORTCURRENTTOTCBARKEEP.CAPTION"
@@ -7603,7 +7749,7 @@ msgstr "Biztonsági mentés készítése"
 #: tfrmoptionstoolbarbase.miexporttoptodcbar.caption
 msgctxt "tfrmoptionstoolbarbase.miexporttoptodcbar.caption"
 msgid "to a Toolbar File (.toolbar)"
-msgstr "Eszkötár fájlba (.toolbar)"
+msgstr "eszköztár fájlba (.toolbar)"
 
 #: tfrmoptionstoolbarbase.miexporttoptotcbarkeep.caption
 msgctxt "tfrmoptionstoolbarbase.miexporttoptotcbarkeep.caption"
@@ -7657,27 +7803,27 @@ msgstr "Visszaállítás biztonsági mentésből"
 #: tfrmoptionstoolbarbase.miimportbackupaddcurrent.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTBACKUPADDCURRENT.CAPTION"
 msgid "to add to current toolbar"
-msgstr "Jelenlegi eszköztárhoz adni"
+msgstr "jelenlegi eszköztárhoz adni"
 
 #: tfrmoptionstoolbarbase.miimportbackupaddmenucurrent.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTBACKUPADDMENUCURRENT.CAPTION"
 msgid "to add to a new toolbar to current toolbar"
-msgstr "Új eszköztárhoz hozzáadni a jelenlegi eszköztáron"
+msgstr "új eszköztárhoz hozzáadni a jelenlegi eszköztáron"
 
 #: tfrmoptionstoolbarbase.miimportbackupaddmenutop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTBACKUPADDMENUTOP.CAPTION"
 msgid "to add to a new toolbar to top toolbar"
-msgstr "Új eszköztárhoz hozzáadni a felső eszköztáron"
+msgstr "új eszköztárhoz hozzáadni a felső eszköztáron"
 
 #: tfrmoptionstoolbarbase.miimportbackupaddtop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTBACKUPADDTOP.CAPTION"
 msgid "to add to top toolbar"
-msgstr "A felső eszköztárhoz adni"
+msgstr "a felső eszköztárhoz adni"
 
 #: tfrmoptionstoolbarbase.miimportbackupreplacetop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTBACKUPREPLACETOP.CAPTION"
 msgid "to replace top toolbar"
-msgstr "Felső eszköztárat lecserélni"
+msgstr "felső eszköztárat lecserélni"
 
 #: tfrmoptionstoolbarbase.miimportdcbar.caption
 msgid "from a Toolbar File (.toolbar)"
@@ -7686,27 +7832,27 @@ msgstr "eszköztár fájlból (.toolbar)"
 #: tfrmoptionstoolbarbase.miimportdcbaraddcurrent.caption
 msgctxt "tfrmoptionstoolbarbase.miimportdcbaraddcurrent.caption"
 msgid "to add to current toolbar"
-msgstr "Jelenlegi eszköztárhoz adni"
+msgstr "jelenlegi eszköztárhoz adni"
 
 #: tfrmoptionstoolbarbase.miimportdcbaraddmenucurrent.caption
 msgctxt "tfrmoptionstoolbarbase.miimportdcbaraddmenucurrent.caption"
 msgid "to add to a new toolbar to current toolbar"
-msgstr "Új eszköztárhoz hozzáadni a jelenlegi eszköztáron"
+msgstr "új eszköztárhoz hozzáadni a jelenlegi eszköztáron"
 
 #: tfrmoptionstoolbarbase.miimportdcbaraddmenutop.caption
 msgctxt "tfrmoptionstoolbarbase.miimportdcbaraddmenutop.caption"
 msgid "to add to a new toolbar to top toolbar"
-msgstr "Új eszköztárhoz hozzáadni a felső eszköztáron"
+msgstr "új eszköztárhoz hozzáadni a felső eszköztáron"
 
 #: tfrmoptionstoolbarbase.miimportdcbaraddtop.caption
 msgctxt "tfrmoptionstoolbarbase.miimportdcbaraddtop.caption"
 msgid "to add to top toolbar"
-msgstr "A felső eszköztárhoz adni"
+msgstr "a felső eszköztárhoz adni"
 
 #: tfrmoptionstoolbarbase.miimportdcbarreplacetop.caption
 msgctxt "tfrmoptionstoolbarbase.miimportdcbarreplacetop.caption"
 msgid "to replace top toolbar"
-msgstr "A felső eszköztárat cserélni"
+msgstr "a felső eszköztárat cserélni"
 
 #: tfrmoptionstoolbarbase.miimporttcbar.caption
 msgid "from a single TC .BAR file"
@@ -7715,27 +7861,27 @@ msgstr "egyszerű TC .BAR fájlból"
 #: tfrmoptionstoolbarbase.miimporttcbaraddcurrent.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCBARADDCURRENT.CAPTION"
 msgid "to add to current toolbar"
-msgstr "Jelenlegi eszköztárhoz adni"
+msgstr "jelenlegi eszköztárhoz adni"
 
 #: tfrmoptionstoolbarbase.miimporttcbaraddmenucurrent.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCBARADDMENUCURRENT.CAPTION"
 msgid "to add to a new toolbar to current toolbar"
-msgstr "Új eszköztárhoz hozzáadni a jelenlegi eszköztáron"
+msgstr "új eszköztárhoz hozzáadni a jelenlegi eszköztáron"
 
 #: tfrmoptionstoolbarbase.miimporttcbaraddmenutop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCBARADDMENUTOP.CAPTION"
 msgid "to add to a new toolbar to top toolbar"
-msgstr "Új eszköztárhoz hozzáadni a felső eszköztáron"
+msgstr "új eszköztárhoz hozzáadni a felső eszköztáron"
 
 #: tfrmoptionstoolbarbase.miimporttcbaraddtop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCBARADDTOP.CAPTION"
 msgid "to add to top toolbar"
-msgstr "A felső eszköztárhoz adni"
+msgstr "a felső eszköztárhoz adni"
 
 #: tfrmoptionstoolbarbase.miimporttcbarreplacetop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCBARREPLACETOP.CAPTION"
 msgid "to replace top toolbar"
-msgstr "Felső eszköztárat lecserélni"
+msgstr "felső eszköztárat lecserélni"
 
 #: tfrmoptionstoolbarbase.miimporttcini.caption
 msgid "from \"wincmd.ini\" of TC..."
@@ -7744,27 +7890,27 @@ msgstr "TC \"wincmd.ini\"-ből..."
 #: tfrmoptionstoolbarbase.miimporttciniaddcurrent.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCINIADDCURRENT.CAPTION"
 msgid "to add to current toolbar"
-msgstr "Jelenlegi eszköztárhoz adni"
+msgstr "jelenlegi eszköztárhoz adni"
 
 #: tfrmoptionstoolbarbase.miimporttciniaddmenucurrent.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCINIADDMENUCURRENT.CAPTION"
 msgid "to add to a new toolbar to current toolbar"
-msgstr "Új eszköztárhoz hozzáadni a jelenlegi eszköztáron"
+msgstr "új eszköztárhoz hozzáadni a jelenlegi eszköztáron"
 
 #: tfrmoptionstoolbarbase.miimporttciniaddmenutop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCINIADDMENUTOP.CAPTION"
 msgid "to add to a new toolbar to top toolbar"
-msgstr "Új eszköztárhoz hozzáadni a felső eszköztáron"
+msgstr "új eszköztárhoz hozzáadni a felső eszköztáron"
 
 #: tfrmoptionstoolbarbase.miimporttciniaddtop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCINIADDTOP.CAPTION"
 msgid "to add to top toolbar"
-msgstr "A felső eszköztárhoz adni"
+msgstr "a felső eszköztárhoz adni"
 
 #: tfrmoptionstoolbarbase.miimporttcinireplacetop.caption
 msgctxt "tfrmoptionstoolbarbase.MIIMPORTTCINIREPLACETOP.CAPTION"
 msgid "to replace top toolbar"
-msgstr "Felső eszköztárat lecserélni"
+msgstr "felső eszköztárat lecserélni"
 
 #: tfrmoptionstoolbarbase.miinternalcommandaftercurrent.caption
 msgctxt "tfrmoptionstoolbarbase.MIINTERNALCOMMANDAFTERCURRENT.CAPTION"
@@ -7865,7 +8011,8 @@ msgstr "Gomb típusa"
 
 #: tfrmoptionstoolbarextra.btnpathtoberelativetoall.caption
 msgid "Apply current settings to all configured filenames and paths"
-msgstr "Jelenlegi beállítás alkalmazása minden konfigurált fájlnévre és útvonalra"
+msgstr ""
+"Jelenlegi beállítás alkalmazása minden konfigurált fájlnévre és útvonalra"
 
 #: tfrmoptionstoolbarextra.ckbtoolbarcommand.caption
 msgctxt "tfrmoptionstoolbarextra.ckbtoolbarcommand.caption"
@@ -7898,13 +8045,14 @@ msgstr "Relatív útvonal ettől:"
 
 #: tfrmoptionstoolbarextra.lbtoolbarfilenamestyle.caption
 msgctxt "tfrmoptionstoolbarextra.lbtoolbarfilenamestyle.caption"
-msgid "Way to set paths when adding elements for icons, commands and starting paths:"
+msgid ""
+"Way to set paths when adding elements for icons, commands and starting paths:"
 msgstr "Útvonalkezelés módja új ikon, parancs vagy kezdőútvonal hozzáadásakor:"
 
 #: tfrmoptionstoolbase.btnrelativetoolpath.hint
 msgctxt "TFRMOPTIONSTOOLBASE.BTNRELATIVETOOLPATH.HINT"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonal beállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmoptionstoolbase.cbtoolskeepterminalopen.caption
 msgid "&Keep terminal window open after executing program"
@@ -8037,10 +8185,12 @@ msgstr "A menüvel és belső parancsokkal"
 
 #: tfrmoptionstreeviewmenu.ckbfavoritetabsfromdoubleclick.caption
 msgid "With double-click on a tab (if configured for it)"
-msgstr "A fülön dupla kattintással (ha engedélyezve vannak)"
+msgstr "A fülön dupla kattintással (ha engedélyezve van)"
 
 #: tfrmoptionstreeviewmenu.ckbshortcutselectandclose.caption
-msgid "When using the keyboard shortcut, it will exit the window returning the current choice"
+msgid ""
+"When using the keyboard shortcut, it will exit the window returning the "
+"current choice"
 msgstr "Gyorsbillentyű használatával kilép és visszatér a kiválasztotthoz"
 
 #: tfrmoptionstreeviewmenu.ckbsingleclickselect.caption
@@ -8049,15 +8199,17 @@ msgstr "Egy kattintás a fán kijelöl és bezár"
 
 #: tfrmoptionstreeviewmenu.ckbuseforcommandlinehistory.caption
 msgid "Use it for Command Line History"
-msgstr "Használd a parancssori előzményeknél"
+msgstr "Használja a parancssori előzményeknél"
 
 #: tfrmoptionstreeviewmenu.ckbusefordirhistory.caption
 msgid "Use it for the Dir History"
-msgstr "Használd a könyvtár előzményeknél"
+msgstr "Használja a könyvtár előzményeknél"
 
 #: tfrmoptionstreeviewmenu.ckbuseforviewhistory.caption
 msgid "Use it for the View History (Visited paths for active view)"
-msgstr "Használd a fájl megjelenítő előzményeinél (az aktív panelen meglátogatott útvonalaknál)"
+msgstr ""
+"Használja a fájl megjelenítő előzményeinél (az aktív panelen meglátogatott "
+"útvonalaknál)"
 
 #: tfrmoptionstreeviewmenu.gbbehavior.caption
 msgid "Behavior regarding selection:"
@@ -8065,27 +8217,33 @@ msgstr "Viselkedés az aktuális választás értelmében:"
 
 #: tfrmoptionstreeviewmenu.gbtreeviewmenusettings.caption
 msgid "Tree View Menus related options:"
-msgstr "Fa elrendezésű menü beállításai:"
+msgstr "Fa menü beállításai:"
 
 #: tfrmoptionstreeviewmenu.gbwheretousetreeviewmenu.caption
 msgid "Where to use Tree View Menus:"
-msgstr "Hol használjunk fa elrendezésű menüt:"
+msgstr "Hol használjunk fa menüt:"
 
 #: tfrmoptionstreeviewmenu.lblnote.caption
-msgid "*NOTE: Regarding the options like the case sensitivity, ignoring accents or not, these are saved and restored individually for each context from a usage and session to another."
-msgstr "*MEGJEGYZÉS: a kis- és nagybetűk érzékenysége, valamint az ékezetek kezelésére vonatkozó beállítások egyenként visszaállításra kerülnek a különböző felhasználási helyek és munkamenetek között."
+msgid ""
+"*NOTE: Regarding the options like the case sensitivity, ignoring accents or "
+"not, these are saved and restored individually for each context from a usage "
+"and session to another."
+msgstr ""
+"*MEGJEGYZÉS: a kis- és nagybetűk érzékenysége, valamint az ékezetek "
+"kezelésére vonatkozó beállítások egyenként visszaállításra kerülnek a "
+"különböző felhasználási helyek és munkamenetek között."
 
 #: tfrmoptionstreeviewmenu.lbluseindirectoryhotlist.caption
 msgid "With Directory Hotlist:"
-msgstr "Kedvenc &könyvtáraknál:"
+msgstr "Kedvenc könyvtárakkal:"
 
 #: tfrmoptionstreeviewmenu.lblusewithfavoritetabs.caption
 msgid "With Favorite Tabs:"
-msgstr "Kedvenc mappafüleknél:"
+msgstr "Kedvenc mappafülekkel:"
 
 #: tfrmoptionstreeviewmenu.lblusewithhistory.caption
 msgid "With History:"
-msgstr "Az előzményeknél:"
+msgstr "Előzményekkel:"
 
 #: tfrmoptionstreeviewmenucolor.btfont.caption
 msgctxt "tfrmoptionstreeviewmenucolor.btfont.caption"
@@ -8130,7 +8288,7 @@ msgstr "Kurzor alatti átlagos szöveg színe:"
 
 #: tfrmoptionstreeviewmenucolor.lblpreview.caption
 msgid "Tree View Menu Preview:"
-msgstr "Fa elrendezésű menü előnézete:"
+msgstr "Fa menü előnézete:"
 
 #: tfrmoptionstreeviewmenucolor.lblsecondarytextcolor.caption
 msgid "Secondary text color:"
@@ -8157,8 +8315,12 @@ msgid "Unselectable under cursor:"
 msgstr "Kurzor alatti nem kijelölhető elem színe:"
 
 #: tfrmoptionstreeviewmenucolor.treeviewmenusample.hint
-msgid "Change color on left and you'll see here a preview of what your Tree View Menus will look likes with this sample."
-msgstr "Előnézet a mappafa menük leendő kinézetére a bal oldalon kiválasztott színnel."
+msgid ""
+"Change color on left and you'll see here a preview of what your Tree View "
+"Menus will look likes with this sample."
+msgstr ""
+"Előnézet a mappafa menük leendő kinézetére a bal oldalon kiválasztott "
+"színnel."
 
 #: tfrmoptionsviewer.gbinternalviewer.caption
 msgid "Internal viewer options"
@@ -8477,17 +8639,17 @@ msgstr "Eredmény:"
 
 #: tfrmselectpathrange.lblselectdirectories.caption
 msgid "&Select the directories to insert (you may select more than one)"
-msgstr "Vála&szd ki a beillesztendő könyvtárneveket (többet is kijelölhetsz)"
+msgstr "Vála&ssza ki a beillesztendő könyvtárneveket (többet is kijelölhet)"
 
 #: tfrmselectpathrange.rbfirstfromend.caption
 msgctxt "tfrmselectpathrange.rbfirstfromend.caption"
 msgid "The en&d"
-msgstr "a &végéről"
+msgstr "A &végéről"
 
 #: tfrmselectpathrange.rbfirstfromstart.caption
 msgctxt "tfrmselectpathrange.rbfirstfromstart.caption"
 msgid "The sta&rt"
-msgstr "az &elejétől"
+msgstr "Az &elejétől"
 
 #: tfrmselecttextrange.buttonpanel.cancelbutton.caption
 msgctxt "tfrmselecttextrange.buttonpanel.cancelbutton.caption"
@@ -8531,20 +8693,20 @@ msgstr "[Első,&Hossz]"
 #: tfrmselecttextrange.rbfirstfromend.caption
 msgctxt "tfrmselecttextrange.rbfirstfromend.caption"
 msgid "The en&d"
-msgstr "a &végéről"
+msgstr "A &végéről"
 
 #: tfrmselecttextrange.rbfirstfromstart.caption
 msgctxt "tfrmselecttextrange.rbfirstfromstart.caption"
 msgid "The sta&rt"
-msgstr "az &elejétől"
+msgstr "Az &elejétől"
 
 #: tfrmselecttextrange.rblastfromend.caption
 msgid "The &end"
-msgstr "a &végéről"
+msgstr "A &végéről"
 
 #: tfrmselecttextrange.rblastfromstart.caption
 msgid "The s&tart"
-msgstr "az e&lejétől"
+msgstr "Az e&lejétől"
 
 #: tfrmsetfileproperties.btncancel.caption
 msgctxt "TFRMSETFILEPROPERTIES.BTNCANCEL.CAPTION"
@@ -8725,7 +8887,7 @@ msgstr "Az elemek \"húzd és ejtsd\" módszerrel átrendezhetők"
 #: tfrmsplitter.btnrelativeftchoice.hint
 msgctxt "TFRMSPLITTER.BTNRELATIVEFTCHOICE.HINT"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmsplitter.caption
 msgid "Splitter"
@@ -8780,7 +8942,7 @@ msgstr "Kiadás"
 #: tfrmstartingsplash.lblcommit.caption
 msgctxt "tfrmstartingsplash.lblcommit.caption"
 msgid "Commit"
-msgstr "Kommit"
+msgstr "Véglegesítés"
 
 #: tfrmstartingsplash.lblfreepascalver.caption
 msgctxt "TFRMSTARTINGSPLASH.LBLFREEPASCALVER.CAPTION"
@@ -8934,7 +9096,7 @@ msgstr "dátum mellőzése"
 
 #: tfrmsyncdirsdlg.chkonlyselected.caption
 msgid "only selected"
-msgstr "Csak a kiválasztottat"
+msgstr "csak a kiválasztottat"
 
 #: tfrmsyncdirsdlg.chksubdirs.caption
 msgid "Subdirs"
@@ -9025,7 +9187,7 @@ msgstr "egyediek"
 
 #: tfrmsyncdirsdlg.statusbar1.panels[0].text
 msgid "Please press \"Compare\" to start"
-msgstr "Nyomd meg az \"Összehasonlítás\" gombot a kezdéshez"
+msgstr "Nyomja meg az \"Összehasonlítás\" gombot a kezdéshez"
 
 #: tfrmsyncdirsperformdlg.caption
 msgctxt "TFRMSYNCDIRSPERFORMDLG.CAPTION"
@@ -9039,15 +9201,15 @@ msgstr "Felülírások megerősítése"
 #: tfrmtreeviewmenu.caption
 msgctxt "tfrmtreeviewmenu.caption"
 msgid "Tree View Menu"
-msgstr "Fa elrendezésű menü"
+msgstr "Fa menü"
 
 #: tfrmtreeviewmenu.lblsearchingentry.caption
 msgid "Select your hot directory:"
-msgstr "Válassz Kedvenc könyvtárat:"
+msgstr "Válasszon Kedvenc könyvtárat:"
 
 #: tfrmtreeviewmenu.pmicasesensitive.caption
 msgid "Search is case sensitive"
-msgstr "A kereső kis-nagybetű érzékeny"
+msgstr "A kereső karakterérzékeny"
 
 #: tfrmtreeviewmenu.pmifullcollapse.caption
 msgid "Full collapse"
@@ -9063,19 +9225,27 @@ msgstr "A kereső az ékezeteket és ikerbetűket figyelmen kívül hagyja"
 
 #: tfrmtreeviewmenu.pminotcasesensitive.caption
 msgid "Search is not case sensitive"
-msgstr "A kereső nem kis-nagybetű érzékeny"
+msgstr "A kereső nem karakterérzékeny"
 
 #: tfrmtreeviewmenu.pminotignoreaccents.caption
 msgid "Search is strict regarding accents and ligatures"
 msgstr "A kereső az ékezeteket és ikerbetűket szigorúan értelmezi"
 
 #: tfrmtreeviewmenu.pminotshowwholebranchifmatch.caption
-msgid "Don't show the branch content \"just\" because the searched string is found in the branche name"
-msgstr "Ne mutassa az ág tartalmát \"csak mert\" az ág neve tartalmazza a keresett szöveget"
+msgid ""
+"Don't show the branch content \"just\" because the searched string is found "
+"in the branche name"
+msgstr ""
+"Ne mutassa az ág tartalmát \"csak mert\" az ág neve tartalmazza a keresett "
+"szöveget"
 
 #: tfrmtreeviewmenu.pmishowwholebranchifmatch.caption
-msgid "If searched string is found in a branch name, show the whole branch even if elements don't match"
-msgstr "Ha a keresett szöveg része egy ágnak, mutassa az ág teljes nevét akkor is, ha egyes részek különböznek"
+msgid ""
+"If searched string is found in a branch name, show the whole branch even if "
+"elements don't match"
+msgstr ""
+"Ha a keresett szöveg része egy ágnak, mutassa az ág teljes nevét akkor is, "
+"ha egyes részek különböznek"
 
 #: tfrmtreeviewmenu.tbcancelandquit.hint
 msgid "Close Tree View Menu"
@@ -9084,12 +9254,12 @@ msgstr "Fa elrendezésű menü bezárása"
 #: tfrmtreeviewmenu.tbconfigurationtreeviewmenus.hint
 msgctxt "TFRMTREEVIEWMENU.TBCONFIGURATIONTREEVIEWMENUS.HINT"
 msgid "Configuration of Tree View Menu"
-msgstr "Fa elrendezésű menü beállítása"
+msgstr "Fa menü beállítása"
 
 #: tfrmtreeviewmenu.tbconfigurationtreeviewmenuscolors.hint
 msgctxt "TFRMTREEVIEWMENU.TBCONFIGURATIONTREEVIEWMENUSCOLORS.HINT"
 msgid "Configuration of Tree View Menu Colors"
-msgstr "Fa elrendezésű menü színeinek beállítása"
+msgstr "Fa menü színeinek beállítása"
 
 #: tfrmtweakplugin.btnadd.caption
 msgid "A&dd new"
@@ -9117,12 +9287,12 @@ msgstr "&OK"
 #: tfrmtweakplugin.btnrelativeplugin1.hint
 msgctxt "tfrmtweakplugin.btnrelativeplugin1.hint"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmtweakplugin.btnrelativeplugin2.hint
 msgctxt "tfrmtweakplugin.btnrelativeplugin2.hint"
 msgid "Some functions to select appropriate path"
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz"
+msgstr "Néhány hasznos művelet a megfelelő útvonal-beállításhoz"
 
 #: tfrmtweakplugin.btnremove.caption
 msgctxt "TFRMTWEAKPLUGIN.BTNREMOVE.CAPTION"
@@ -9167,7 +9337,7 @@ msgstr "Tud új archí&vumot létrehozni"
 
 #: tfrmtweakplugin.cbpk_caps_options.caption
 msgid "S&upports the options dialogbox"
-msgstr "Támogatja a beállítások dialóg&usablakot"
+msgstr "Támogatja a beállítások párbeszéd&ablakot"
 
 #: tfrmtweakplugin.cbpk_caps_searchtext.caption
 msgid "Allow searchin&g for text in archives"
@@ -9634,7 +9804,8 @@ msgstr "Mindig felül"
 
 #: tfrmviewoperations.lblusedragdrop.caption
 msgid "&Use \"drag && drop\" to move operations between queues"
-msgstr "Használhatsz \"húzd és ejtsd\" műveletet a feladatsorrend megváltoztatásához"
+msgstr ""
+"Használhat \"húzd és ejtsd\" műveletet a feladatsorrend megváltoztatásához"
 
 #: tfrmviewoperations.mnucanceloperation.caption
 msgctxt "tfrmviewoperations.mnucanceloperation.caption"
@@ -9720,12 +9891,12 @@ msgstr "Ha a &könyvtár létezik"
 #: tgiocopymoveoperationoptionsui.lblfileexists.caption
 msgctxt "tgiocopymoveoperationoptionsui.lblfileexists.caption"
 msgid "When file exists"
-msgstr "Ha létezik a fájl"
+msgstr "Ha a fájl létezik"
 
 #: tmultiarchivecopyoperationoptionsui.lblfileexists.caption
 msgctxt "tmultiarchivecopyoperationoptionsui.lblfileexists.caption"
 msgid "When file exists"
-msgstr "Ha létezik a fájl"
+msgstr "Ha a fájl létezik"
 
 #: ttfrmconfirmcommandline.btncancel.caption
 msgctxt "ttfrmconfirmcommandline.btncancel.caption"
@@ -9780,12 +9951,20 @@ msgid "When file exists"
 msgstr "Ha a fájl létezik"
 
 #: uaccentsutils.rsstraccents
-msgid "á;â;à;å;ã;ä;ç;é;ê;è;ë;í;î;ì;ï;ñ;ó;ô;ò;ø;õ;ö;ú;û;ù;ü;ÿ;Á;Â;À;Å;Ã;Ä;Ç;É;Ê;È;Ë;Í;Í;Ì;Ï;Ñ;Ó;Ô;Ø;Õ;Ö;ß;Ú;Û;Ù;Ü;Ÿ;¿;¡;œ;æ;Æ;Œ"
-msgstr "á;â;à;å;ã;ä;ç;é;ê;è;ë;í;î;ì;ï;ñ;ó;ô;ò;ø;õ;ö;ú;û;ù;ü;ÿ;Á;Â;À;Å;Ã;Ä;Ç;É;Ê;È;Ë;Í;Í;Ì;Ï;Ñ;Ó;Ô;Ø;Õ;Ö;ß;Ú;Û;Ù;Ü;Ÿ;¿;¡;œ;æ;Æ;Œ"
+msgid ""
+"á;â;à;å;ã;ä;ç;é;ê;è;ë;í;î;ì;ï;ñ;ó;ô;ò;ø;õ;ö;ú;û;ù;ü;ÿ;Á;Â;À;Å;Ã;Ä;Ç;É;Ê;È;Ë;"
+"Í;Í;Ì;Ï;Ñ;Ó;Ô;Ø;Õ;Ö;ß;Ú;Û;Ù;Ü;Ÿ;¿;¡;œ;æ;Æ;Œ"
+msgstr ""
+"á;â;à;å;ã;ä;ç;é;ê;è;ë;í;î;ì;ï;ñ;ó;ô;ò;ø;õ;ö;ú;û;ù;ü;ÿ;Á;Â;À;Å;Ã;Ä;Ç;É;Ê;È;Ë;"
+"Í;Í;Ì;Ï;Ñ;Ó;Ô;Ø;Õ;Ö;ß;Ú;Û;Ù;Ü;Ÿ;¿;¡;œ;æ;Æ;Œ"
 
 #: uaccentsutils.rsstraccentsstripped
-msgid "a;a;a;a;a;a;c;e;e;e;e;i;i;i;i;n;o;o;o;o;o;o;u;u;u;u;y;A;A;A;A;A;A;C;E;E;E;E;I;I;I;I;N;O;O;O;O;O;B;U;U;U;U;Y;?;!;oe;ae;AE;OE"
-msgstr "a;a;a;a;a;a;c;e;e;e;e;i;i;i;i;n;o;o;o;o;o;o;u;u;u;u;y;A;A;A;A;A;A;C;E;E;E;E;I;I;I;I;N;O;O;O;O;O;B;U;U;U;U;Y;?;!;oe;ae;AE;OE"
+msgid ""
+"a;a;a;a;a;a;c;e;e;e;e;i;i;i;i;n;o;o;o;o;o;o;u;u;u;u;y;A;A;A;A;A;A;C;E;E;E;E;"
+"I;I;I;I;N;O;O;O;O;O;B;U;U;U;U;Y;?;!;oe;ae;AE;OE"
+msgstr ""
+"a;a;a;a;a;a;c;e;e;e;e;i;i;i;i;n;o;o;o;o;o;o;u;u;u;u;y;A;A;A;A;A;A;C;E;E;E;E;"
+"I;I;I;I;N;O;O;O;O;O;B;U;U;U;U;Y;?;!;oe;ae;AE;OE"
 
 #: uadministrator.rselevationrequired
 msgid "You need to provide administrator permission"
@@ -9793,19 +9972,19 @@ msgstr "Adminisztrátori jogosultság szükséges"
 
 #: uadministrator.rselevationrequiredcopy
 msgid "to copy this object:"
-msgstr "ennek az objektumnak a másolásához:"
+msgstr "az objektum másolásához:"
 
 #: uadministrator.rselevationrequiredcreate
 msgid "to create this object:"
-msgstr "ennek az objektumnak a létrehozásához:"
+msgstr "az objektum létrehozásához:"
 
 #: uadministrator.rselevationrequireddelete
 msgid "to delete this object:"
-msgstr "ennek az objektumnak a törléséhez:"
+msgstr "az objektum törléséhez:"
 
 #: uadministrator.rselevationrequiredgetattributes
 msgid "to get attributes of this object:"
-msgstr "ezen objektum attribútumainak lekéréséhez:"
+msgstr "az objektum attribútumainak lekéréséhez:"
 
 #: uadministrator.rselevationrequiredhardlink
 msgid "to create this hard link:"
@@ -9813,15 +9992,15 @@ msgstr "ennek a merev hivatkozásnak az elkészítéséhez:"
 
 #: uadministrator.rselevationrequiredopen
 msgid "to open this object:"
-msgstr "ennek az objektumnak a megnyitásához:"
+msgstr "az objektum megnyitásához:"
 
 #: uadministrator.rselevationrequiredrename
 msgid "to rename this object:"
-msgstr "ennek az objektumnak az átnevezéséhez:"
+msgstr "az objektum átnevezéséhez:"
 
 #: uadministrator.rselevationrequiredsetattributes
 msgid "to set attributes of this object:"
-msgstr "ezen objektum attribútumainak modósításához:"
+msgstr "az objektum attribútumainak beállításához:"
 
 #: uadministrator.rselevationrequiredsymlink
 msgid "to create this symbolic link:"
@@ -9856,13 +10035,15 @@ msgstr "Tájolás"
 #: ulng.msgtrytolocatecrcfile
 #, object-pascal-format
 msgid ""
-"This file cannot be found and could help to validate final combination of files:\n"
+"This file cannot be found and could help to validate final combination of "
+"files:\n"
 "%s\n"
 "\n"
 "Could you make it available and press \"OK\" when ready,\n"
 "or press \"CANCEL\" to continue without it?"
 msgstr ""
-"Ez a fájl nem található, de segíthet a fájlok végső kombinációjának érvényesítésében:\n"
+"Ez a fájl nem található, de segíthet a fájlok végső kombinációjának "
+"érvényesítésében:\n"
 "%s\n"
 "\n"
 "Kérem, tegye elérhetővé, majd nyomjon OK-t, vagy nyomja meg\n"
@@ -9878,7 +10059,7 @@ msgstr "<LNK>"
 
 #: ulng.rscancelfilter
 msgid "Cancel Quick Filter"
-msgstr "Gyorsszűrő mellőzése"
+msgstr "Gyors szűrő mellőzése"
 
 #: ulng.rscanceloperation
 msgid "Cancel Current Operation"
@@ -9927,15 +10108,21 @@ msgstr "Összesen:"
 
 #: ulng.rsclearfiltersornot
 msgid "Do you want to clear filters for this new search?"
-msgstr "Szeretnéd törölni az előző szűrőbeállításokat az új keresés előtt?"
+msgstr "Szeretné törölni az előző szűrőbeállításokat az új keresés előtt?"
 
 #: ulng.rsclipboardcontainsinvalidtoolbardata
 msgid "Clipboard doesn't contain any valid toolbar data."
 msgstr "A vágólap nem tartalmaz érvényes eszköztári adatot."
 
 #: ulng.rscmdcategorylistinorder
-msgid "All;Active Panel;Left Panel;Right Panel;File Operations;Configuration;Network;Miscellaneous;Parallel Port;Print;Mark;Security;Clipboard;FTP;Navigation;Help;Window;Command Line;Tools;View;User;Tabs;Sorting;Log"
-msgstr "Mind;Aktív panel;Bal panel;Jobb panel;Fájlműveletek;Beállítások;Hálózat;Egyebek;Párhuzamos port;Nyomtatás;Megjelölés;Biztonság;Vágólap;FTP;Navigáció;Súgó;Ablak;Parancssor;Eszközök;Nézet;Felhasználó;Fülek;Rendezés;LogNapló"
+msgid ""
+"All;Active Panel;Left Panel;Right Panel;File Operations;Configuration;"
+"Network;Miscellaneous;Parallel Port;Print;Mark;Security;Clipboard;FTP;"
+"Navigation;Help;Window;Command Line;Tools;View;User;Tabs;Sorting;Log"
+msgstr ""
+"Mind;Aktív panel;Bal panel;Jobb panel;Fájlműveletek;Beállítások;Hálózat;"
+"Egyebek;Párhuzamos port;Nyomtatás;Megjelölés;Biztonság;Vágólap;FTP;Navigáció;"
+"Súgó;Ablak;Parancssor;Eszközök;Nézet;Felhasználó;Fülek;Rendezés;Napló"
 
 #: ulng.rscmdkindofsort
 msgid "Legacy sorted;A-Z sorted"
@@ -9993,7 +10180,7 @@ msgstr "Szélesség"
 
 #: ulng.rsconfcustheader
 msgid "Customize column"
-msgstr "Oszlop személyreszabása"
+msgstr "Oszlop személyre szabása"
 
 #: ulng.rsconfigurationfileassociation
 msgid "Configure file association"
@@ -10277,7 +10464,7 @@ msgstr "Rich Text formátum;HTML formátum;Unicode szöveg;Egyszerű szöveg"
 
 #: ulng.rsdrivefreespaceindicator
 msgid "Drive Free Space Indicator"
-msgstr "Meghajtón a szabad terület mutató"
+msgstr "Meghajtó szabad terület mutató"
 
 #: ulng.rsdrivenolabel
 msgid "<no label>"
@@ -10361,7 +10548,9 @@ msgstr "A \"]\" nem található ebben a sorban: %s"
 #: ulng.rsextscommandwithnoext
 #, object-pascal-format
 msgid "No extension defined before command \"%s\". It will be ignored."
-msgstr "Nincs kiterjesztés megadva a parancs előtt: \"%s\". Figyelmen kívül lesz hagyva."
+msgstr ""
+"Nincs kiterjesztés megadva a parancs előtt: \"%s\". Figyelmen kívül lesz "
+"hagyva."
 
 #: ulng.rsfavtabspanelsideselection
 msgid "Left;Right;Active;Inactive;Both;None"
@@ -10372,8 +10561,9 @@ msgid "No;Yes"
 msgstr "Nem;Igen"
 
 #: ulng.rsfilenameexportedtcbarprefix
+#, fuzzy
 msgid "Exported_from_DC"
-msgstr "DC-bol_exportalva"
+msgstr "DC-ből exportálva"
 
 #: ulng.rsfileopcopymovefileexistsoptions
 msgid "Ask;Overwrite;Skip"
@@ -10449,7 +10639,7 @@ msgstr ".xml beállításfájlok"
 
 #: ulng.rsfinddefinetemplate
 msgid "Define template"
-msgstr "Sablon meghatátozása"
+msgstr "Sablon meghatározása"
 
 #: ulng.rsfinddepth
 #, object-pascal-format
@@ -10639,16 +10829,22 @@ msgid "Error creating hardlink."
 msgstr "Hiba a merev hivatkozás létrehozásakor."
 
 #: ulng.rshotdirforcesortingorderchoices
-msgid "none;Name, a-z;Name, z-a;Ext, a-z;Ext, z-a;Size 9-0;Size 0-9;Date 9-0;Date 0-9"
-msgstr "nincs;név, a-z;név z-a;kiterjesztés, a-z;kiterjesztés, z-a;méret 9-0;méret 0-9;dátum 9-0;dátum 0-9"
+msgid ""
+"none;Name, a-z;Name, z-a;Ext, a-z;Ext, z-a;Size 9-0;Size 0-9;Date 9-0;Date "
+"0-9"
+msgstr ""
+"nincs;Név, a-z;Név z-a;Kiterjesztés, a-z;Kiterjesztés, z-a;Méret 9-0;Méret "
+"0-9;Dátum 9-0;Dátum 0-9"
 
 #: ulng.rshotdirwarningabortrestorebackup
 msgid ""
-"Warning! When restoring a .hotlist backup file, this will erase existing list to replace by the imported one.\n"
+"Warning! When restoring a .hotlist backup file, this will erase existing "
+"list to replace by the imported one.\n"
 "\n"
 "Are you sure you want to proceed?"
 msgstr ""
-"Figyelem! A .hotlist biztonsági mentés fájlok visszaállításakor a meglévő lista felülírásra kerül az importált tartalommal.\n"
+"Figyelem! A .hotlist biztonsági mentés fájlok visszaállításakor a meglévő "
+"lista felülírásra kerül az importált tartalommal.\n"
 "\n"
 "Biztosan folytatja a műveletet?"
 
@@ -10686,7 +10882,7 @@ msgstr "Csoportos átnevező"
 
 #: ulng.rshotkeycategorysyncdirs
 msgid "Synchronize Directories"
-msgstr "Könyvtárszinkronizálás"
+msgstr "Könyvtár szinkronizálása"
 
 #: ulng.rshotkeycategoryviewer
 msgctxt "ulng.rshotkeycategoryviewer"
@@ -10742,7 +10938,9 @@ msgstr "\"ENTER\"-t nem tartalmazhat"
 
 #: ulng.rshotkeysortorder
 msgid "By command name;By shortcut key (grouped);By shortcut key (one per row)"
-msgstr "Parancs neve szerint;Gyorsbillentyű szerint (csoportosítva);Gyorsbillentyű szerint (egyesével)"
+msgstr ""
+"Parancs neve szerint;Gyorsbillentyű szerint (csoportosítva);Gyorsbillentyű "
+"szerint (egyesével)"
 
 #: ulng.rsimporttoolbarproblem
 msgid "Cannot find reference to default bar file"
@@ -10790,8 +10988,12 @@ msgid "A columns view with that name already exists."
 msgstr "Már létezik ilyen nevű oszlop."
 
 #: ulng.rsmenuconfigurecolumnssavetochange
-msgid "To change current editing colmuns view, either SAVE, COPY or DELETE current editing one"
-msgstr "Az éppen szerkesztett oszlopnézet cseréjéhez MENTSE, MÁSOLJA vagy TÖRÖLJE a jelenlegit"
+msgid ""
+"To change current editing colmuns view, either SAVE, COPY or DELETE current "
+"editing one"
+msgstr ""
+"Az éppen szerkesztett oszlopnézet cseréjéhez MENTSE, MÁSOLJA vagy TÖRÖLJE a "
+"jelenlegit"
 
 #: ulng.rsmenuconfigurecustomcolumns
 msgid "Configure custom columns"
@@ -10804,17 +11006,17 @@ msgstr "Adja meg az egyedi oszlop nevét"
 #: ulng.rsmenumacosaddfindertag
 #, object-pascal-format
 msgid "Add \"%s\""
-msgstr ""
+msgstr "\"%s\" hozzáadása"
 
 #: ulng.rsmenumacoseditfindertags
 msgctxt "ulng.rsmenumacoseditfindertags"
 msgid "Edit Finder Tags..."
-msgstr ""
+msgstr "Kereső (Finder) címkék szerkesztése..."
 
 #: ulng.rsmenumacosremovefindertag
 #, object-pascal-format
 msgid "Remove \"%s\""
-msgstr ""
+msgstr "\"%s\" eltávolítása"
 
 #: ulng.rsmenumacosshare
 msgid "Share..."
@@ -10823,41 +11025,37 @@ msgstr "Megosztás..."
 #: ulng.rsmfstbiairdroptips
 msgctxt "ulng.rsmfstbiairdroptips"
 msgid "AirDrop"
-msgstr ""
+msgstr "AirDrop"
 
 #: ulng.rsmfstbiairdroptitle
 msgctxt "ulng.rsmfstbiairdroptitle"
 msgid "AirDrop"
-msgstr ""
+msgstr "AirDrop"
 
 #: ulng.rsmfstbicommandmenudirectoryhotlist
-#, fuzzy
 msgctxt "ulng.rsmfstbicommandmenudirectoryhotlist"
 msgid "Directory Hotlist"
 msgstr "Kedvenc könyvtárak"
 
 #: ulng.rsmfstbicommandmenufavoritetabs
-#, fuzzy
 msgctxt "ulng.rsmfstbicommandmenufavoritetabs"
 msgid "Favorite Tabs"
 msgstr "Kedvenc fülek"
 
 #: ulng.rsmfstbicommandmenuquicklook
 msgid "macOS QuickLook"
-msgstr ""
+msgstr "macOS GyorsNézet (QuickView)"
 
 #: ulng.rsmfstbicommandtitle
-#, fuzzy
 msgctxt "ulng.rsmfstbicommandtitle"
 msgid "Command"
 msgstr "Parancs"
 
 #: ulng.rsmfstbicomparetips
 msgid "Compare by Contents..."
-msgstr ""
+msgstr "Összehasonlítás tartalom szerint..."
 
 #: ulng.rsmfstbicomparetitle
-#, fuzzy
 msgctxt "ulng.rsmfstbicomparetitle"
 msgid "Compare"
 msgstr "Összehasonlítás"
@@ -10865,147 +11063,152 @@ msgstr "Összehasonlítás"
 #: ulng.rsmfstbieditfindertagtips
 msgctxt "ulng.rsmfstbieditfindertagtips"
 msgid "Edit Finder Tags..."
-msgstr ""
+msgstr "Kereső (Finder) címkék szerkesztése..."
 
 #: ulng.rsmfstbieditfindertagtitle
 msgid "EditTag"
-msgstr ""
+msgstr "CímkeSzerkesztés (EditTag)"
 
 #: ulng.rsmfstbiedittips
 msgid "Edit..."
-msgstr ""
+msgstr "Szerkesztés..."
 
 #: ulng.rsmfstbiedittitle
-#, fuzzy
 msgctxt "ulng.rsmfstbiedittitle"
 msgid "Edit"
 msgstr "Szerkeszt"
 
 #: ulng.rsmfstbifinderrevealtips
 msgid "Reveal in Finder"
-msgstr ""
+msgstr "Megtekintés a Keresőben (Finder)"
 
 #: ulng.rsmfstbifinderrevealtitle
 msgid "Finder"
-msgstr ""
+msgstr "Kereső (Finder)"
 
 #: ulng.rsmfstbigotips
 msgctxt "ulng.rsmfstbigotips"
 msgid "Go"
-msgstr ""
+msgstr "Ugrás"
 
 #: ulng.rsmfstbigotitle
 msgctxt "ulng.rsmfstbigotitle"
 msgid "Go"
-msgstr ""
+msgstr "Ugrás"
 
 #: ulng.rsmfstbihorzsplittips
 msgid "Toggle Horizontal Split Mode"
-msgstr ""
+msgstr "Vízszintes elosztás mód ki/be"
 
 #: ulng.rsmfstbihorzsplittitle
 msgid "HorzSplit"
-msgstr ""
+msgstr "VízszintesElosztás"
 
 #: ulng.rsmfstbiprivilegetips
-msgid "As a file manager, Double Command requires full disk access permissions. Clicking this button will pop up the macOS system settings page. Please add \"Double Commander.app\" to the \"Full Disk Access\" list to complete the authorization."
+msgid ""
+"As a file manager, Double Command requires full disk access permissions. "
+"Clicking this button will pop up the macOS system settings page. Please add "
+"\"Double Commander.app\" to the \"Full Disk Access\" list to complete the "
+"authorization."
 msgstr ""
+"Fájlkezelőként a Double Command teljes lemezhozzáférési engedélyt igényel. "
+"Erre a gombra kattintva megjelenik a macOS rendszerbeállítások oldala. "
+"Kérjük, adja hozzá a \"Double Commander.app\" elemet a \"Full Disk Access\" "
+"(Teljes lemezhozzáférés) listához az engedélyezés befejezéséhez."
 
 #: ulng.rsmfstbiprivilegetitle
 msgid "Privilege"
-msgstr ""
+msgstr "Kiváltságok"
 
 #: ulng.rsmfstbiquicklooktips
 msgid "macOS Quick Look Panel"
-msgstr ""
+msgstr "macOS GyorsNézet panel"
 
 #: ulng.rsmfstbiquicklooktitle
 msgid "QuickLook"
-msgstr ""
+msgstr "GyorsNézet"
 
 #: ulng.rsmfstbirefreshtips
 msgid "Refresh File List"
-msgstr ""
+msgstr "Fájl lista frissítése"
 
 #: ulng.rsmfstbirefreshtitle
 msgid "Refresh"
-msgstr ""
+msgstr "Frissítés"
 
 #: ulng.rsmfstbisearchtips
 msgid "Search Files..."
-msgstr ""
+msgstr "Fájlok keresése..."
 
 #: ulng.rsmfstbisearchtitle
-#, fuzzy
 msgctxt "ulng.rsmfstbisearchtitle"
 msgid "Search"
 msgstr "Keresés"
 
 #: ulng.rsmfstbisharetitle
 msgid "Share"
-msgstr ""
+msgstr "Megosztás"
 
 #: ulng.rsmfstbishowbrieftitle
 msgid "as Brief"
-msgstr ""
+msgstr "mint rövid"
 
 #: ulng.rsmfstbishowfulltitle
 msgid "as Full"
-msgstr ""
+msgstr "mint teljes"
 
 #: ulng.rsmfstbishowinfotips
 msgid "Show Info in Finder"
-msgstr ""
+msgstr "Infó megjelenítése a Keresőben (Finder)"
 
 #: ulng.rsmfstbishowinfotitle
 msgid "ShowInfo"
-msgstr ""
+msgstr "InfóMegjelenítése"
 
 #: ulng.rsmfstbishowmodetips
 msgid "Show as Brief, Full or Thumbnails"
-msgstr ""
+msgstr "Rövid, teljes vagy bélyegkép nézet"
 
 #: ulng.rsmfstbishowmodetitle
 msgid "ShowMode"
-msgstr ""
+msgstr "MegjelenítésMód"
 
 #: ulng.rsmfstbishowthumbnailstitle
 msgid "as Thumbnails"
-msgstr ""
+msgstr "bélyegképként"
 
 #: ulng.rsmfstbiswappanelstips
 msgid "Swap Panels"
-msgstr ""
+msgstr "Panelek cseréje"
 
 #: ulng.rsmfstbiswappanelstitle
 msgid "SwapPanels"
-msgstr ""
+msgstr "PanelekCseréje"
 
 #: ulng.rsmfstbisynctips
 msgid "Synchronize Dirs..."
-msgstr ""
+msgstr "Mappák szinkronizálása..."
 
 #: ulng.rsmfstbisynctitle
 msgid "Sync"
-msgstr ""
+msgstr "Szinkronizálás"
 
 #: ulng.rsmfstbiterminaltips
 msgid "Open in Terminal"
-msgstr ""
+msgstr "Megnyitás terminálban"
 
 #: ulng.rsmfstbiterminaltitle
-#, fuzzy
 msgctxt "ulng.rsmfstbiterminaltitle"
 msgid "Terminal"
 msgstr "Terminál"
 
 #: ulng.rsmfstbitreeviewtips
 msgid "Show Tree View Panel"
-msgstr ""
+msgstr "Fa nézet panel megjelenítése"
 
 #: ulng.rsmfstbitreeviewtitle
 msgid "TreeView"
-msgstr ""
+msgstr "FaNézet"
 
 #: ulng.rsmnuactions
 msgctxt "ulng.rsmnuactions"
@@ -11052,7 +11255,7 @@ msgstr "Új"
 
 #: ulng.rsmnunewwindow
 msgid "New Window"
-msgstr ""
+msgstr "Új ablak"
 
 #: ulng.rsmnunomedia
 msgid "No media available"
@@ -11114,7 +11317,7 @@ msgstr "További paraméterek az archiváló parancssorra:"
 
 #: ulng.rsmsgaskquoteornot
 msgid "Do you want to enclose between quotes?"
-msgstr "Szeretné idézőjelbe tenni?"
+msgstr "Szeretné idézőjelek közé tenni?"
 
 #: ulng.rsmsgbadcrc32
 #, object-pascal-format
@@ -11136,7 +11339,7 @@ msgstr "Biztosan megszakítja ezt a műveletet?"
 #: ulng.rsmsgcannotcopymoveitself
 #, object-pascal-format
 msgid "You can not copy/move a file \"%s\" to itself!"
-msgstr "Nem másolható/helyezhetedő a fájlt \"%s\" saját magára!"
+msgstr "Nem másolható/helyezhető a fájl \"%s\" saját magára!"
 
 #: ulng.rsmsgcannotcopyspecialfile
 #, object-pascal-format
@@ -11260,7 +11463,9 @@ msgstr "Írja be a nevet:"
 #: ulng.rsmsgenternewfiletypename
 #, object-pascal-format
 msgid "Enter name of new file type to create for extension \"%s\""
-msgstr "Adja meg az új fájltípus nevét, mely a következő kiterjesztéssel rendelkezik: \"%s\""
+msgstr ""
+"Adja meg az új fájltípus nevét, mely a következő kiterjesztéssel "
+"rendelkezik: \"%s\""
 
 #: ulng.rsmsgerrbadarchive
 msgid "CRC error in archive data"
@@ -11373,7 +11578,7 @@ msgstr "Nem tudom a fájlt (%s) %s névre változtatni"
 
 #: ulng.rsmsgerrsaveassociation
 msgid "Can not save association!"
-msgstr "Nem bírja menteni a társítást!"
+msgstr "A társítás nem menthető!"
 
 #: ulng.rsmsgerrsavefile
 msgid "Cannot save file"
@@ -11426,8 +11631,11 @@ msgid "Exit status:"
 msgstr "Kilépési állapot:"
 
 #: ulng.rsmsgfavoritetabsdeleteallentries
-msgid "Are you sure you want to remove all entries of your Favorite Tabs? (There is no \"undo\" to this action!)"
-msgstr "Biztosan eltávolítja a kedvenc mappafüleket? (A művelet visszavonhatatlan!)"
+msgid ""
+"Are you sure you want to remove all entries of your Favorite Tabs? (There is "
+"no \"undo\" to this action!)"
+msgstr ""
+"Biztosan eltávolítja a kedvenc mappafüleket? (A művelet visszavonhatatlan!)"
 
 #: ulng.rsmsgfavoritetabsdraghereentry
 msgid "Drag here other entries"
@@ -11448,7 +11656,8 @@ msgstr "Kedvenc fülek sikeresen exportálva: %d / %d"
 
 #: ulng.rsmsgfavoritetabsextramode
 msgid "Default extra setting for save dir history for new Favorite Tabs:"
-msgstr "Alapértelmezésben mentse a mappaelőzményeket új kedvenc fülek mentésekor:"
+msgstr ""
+"Alapértelmezésben mentse a mappaelőzményeket új kedvenc fülek mentésekor:"
 
 #: ulng.rsmsgfavoritetabsimportedsuccessfully
 #, object-pascal-format
@@ -11461,11 +11670,16 @@ msgstr "Régi fülek importálva"
 
 #: ulng.rsmsgfavoritetabsimporttitle
 msgid "Select .tab file(s) to import (could be more than one at the time!)"
-msgstr "Válasszon egy .tab fájlt az importáláshoz (de akár többet is, egyszerre!)"
+msgstr ""
+"Válasszon egy .tab fájlt az importáláshoz (de akár többet is, egyszerre!)"
 
 #: ulng.rsmsgfavoritetabsmodifiednoimport
-msgid "Last Favorite Tabs modification have been saved yet. Do you want to save them prior to continue?"
-msgstr "A Kedvenc fülek legutóbbi módosítását nem mentette még el. Szeretné menteni a folytatás előtt?"
+msgid ""
+"Last Favorite Tabs modification have been saved yet. Do you want to save "
+"them prior to continue?"
+msgstr ""
+"A Kedvenc fülek legutóbbi módosítását nem mentette még el. Szeretné menteni "
+"a folytatás előtt?"
 
 #: ulng.rsmsgfavoritetabssimplemode
 msgctxt "ulng.rsmsgfavoritetabssimplemode"
@@ -11519,15 +11733,20 @@ msgid "File operations active"
 msgstr "Aktív fájl műveletek"
 
 #: ulng.rsmsgfileoperationsactivelong
-msgid "Some file operations have not yet finished. Closing Double Commander may result in data loss."
-msgstr "Néhány fájlművelet még nem lett befejezve. A Double Commander bezárása adatvesztést eredményezhet!"
+msgid ""
+"Some file operations have not yet finished. Closing Double Commander may "
+"result in data loss."
+msgstr ""
+"Néhány fájlművelet még nem lett befejezve. A Double Commander bezárása "
+"adatvesztést eredményezhet!"
 
 #: ulng.rsmsgfilepathovermaxpath
 #, object-pascal-format
 msgid ""
 "The target name length (%d) is more than %d characters!\n"
 "%s\n"
-"Most programs will not be able to access a file/directory with such a long name!"
+"Most programs will not be able to access a file/directory with such a long "
+"name!"
 msgstr ""
 "A megadott név hosszabb (%d), mint %d karakter!\n"
 "%s\n"
@@ -11579,8 +11798,9 @@ msgid "Do command"
 msgstr "Parancs végrehajtása"
 
 #: ulng.rsmsghotdircommandsample
+#, fuzzy
 msgid "cm_somthing"
-msgstr "cm_somthing"
+msgstr "cm_something"
 
 #: ulng.rsmsghotdirconfighotlist
 msgctxt "ulng.rsmsghotdirconfighotlist"
@@ -11588,8 +11808,12 @@ msgid "Configuration of Directory Hotlist"
 msgstr "Kedvenc könyvtárak beállítása"
 
 #: ulng.rsmsghotdirdeleteallentries
-msgid "Are you sure you want to remove all entries of your Directory Hotlist? (There is no \"undo\" to this action!)"
-msgstr "Biztosan eltávolítja az összes bejegyzést a Kedvenc könyvtárakból? (A művelet visszavonhatatlan!)"
+msgid ""
+"Are you sure you want to remove all entries of your Directory Hotlist? "
+"(There is no \"undo\" to this action!)"
+msgstr ""
+"Biztosan eltávolítja az összes bejegyzést a Kedvenc könyvtárakból? (A "
+"művelet visszavonhatatlan!)"
 
 #: ulng.rsmsghotdirdemocommand
 msgid "This will execute the following command:"
@@ -11714,16 +11938,26 @@ msgid "Hotdir target"
 msgstr "Kedvenc könyvtár cél könyvtára"
 
 #: ulng.rsmsghotdirtiporderpath
-msgid "Determine if you want the active frame to be sorted in a specified order after changing directory"
-msgstr "Válassza ki az aktív panel egyedi rendezési módját a mappaváltást követően"
+msgid ""
+"Determine if you want the active frame to be sorted in a specified order "
+"after changing directory"
+msgstr ""
+"Válassza ki az aktív panel egyedi rendezési módját a mappaváltást követően"
 
 #: ulng.rsmsghotdirtipordertarget
-msgid "Determine if you want the not active frame to be sorted in a specified order after changing directory"
-msgstr "Válassza ki az inaktív panel egyedi rendezési módját a mappaváltást követően"
+msgid ""
+"Determine if you want the not active frame to be sorted in a specified order "
+"after changing directory"
+msgstr ""
+"Válassza ki az inaktív panel egyedi rendezési módját a mappaváltást követően"
 
 #: ulng.rsmsghotdirtipspecialdirbut
-msgid "Some functions to select appropriate path relative, absolute, windows special folders, etc."
-msgstr "Néhány hasznos művelet a megfelelő útvonalbeállításhoz (relatív, abszolút, Windows specifikus mappák stb.)"
+msgid ""
+"Some functions to select appropriate path relative, absolute, windows "
+"special folders, etc."
+msgstr ""
+"Néhány hasznos művelet a megfelelő útvonal-beállításhoz (relatív, abszolút, "
+"Windows specifikus mappák stb.)"
 
 #: ulng.rsmsghotdirtotalbackuped
 #, object-pascal-format
@@ -11744,14 +11978,16 @@ msgstr "Összes exportált bejegyzés: "
 #, object-pascal-format
 msgid ""
 "Do you want to delete all elements inside the sub-menu [%s]?\n"
-"Answering NO will delete only menu delimiters but will keep element inside sub-menu."
+"Answering NO will delete only menu delimiters but will keep element inside "
+"sub-menu."
 msgstr ""
 "Törli az almenü [%s] összes elemét?\n"
-"Ha NEM-mel válaszol, akkor a menü elválasztókat törlöm, de az almenük megmaradnak."
+"Ha NEM-mel válaszol, akkor a menü elválasztókat törlöm, de az almenük "
+"megmaradnak."
 
 #: ulng.rsmsghotdirwheretosave
 msgid "Enter location and filename where to save a Directory Hotlist file"
-msgstr "Add meg a Kedvenc könyvtárak mentésének helyét és nevét"
+msgstr "Adja meg a Kedvenc könyvtárak mentésének helyét és nevét"
 
 #: ulng.rsmsgincorrectfilelength
 #, object-pascal-format
@@ -11768,9 +12004,8 @@ msgid ""
 "\n"
 "Number of bytes still to write: %d"
 msgstr ""
-"Kérem, helyezze be a következő lemezt vagy ilyesmit.\n"
+"Kérem, helyezze be a következő lemezt vagy hasonlót.\n"
 "\n"
-"Jóváhagyod e fájl írását:\n"
 "Ez lehetővé teszi \"%s\" fájlnak a megírását\n"
 "Hátralévő kiírandó méret (bájtban): %d"
 
@@ -11806,8 +12041,12 @@ msgstr "Ez nem érvényes beépülő!"
 
 #: ulng.rsmsginvalidpluginarchitecture
 #, object-pascal-format
-msgid "This plugin is built for Double Commander for %s.%sIt can not work with Double Commander for %s!"
-msgstr "Ez a beépülő a Double Commander %s.%s verziójához készült! Nem fog működni a Double Commander %s verziójával!"
+msgid ""
+"This plugin is built for Double Commander for %s.%sIt can not work with "
+"Double Commander for %s!"
+msgstr ""
+"Ez a beépülő a Double Commander %s.%s verziójához készült! Nem fog működni a "
+"Double Commander %s verziójával!"
 
 #: ulng.rsmsginvalidquoting
 msgid "Invalid quoting"
@@ -11910,7 +12149,7 @@ msgstr "%s fájl sértetlenségének ellenőrzése"
 #: ulng.rsmsglogwipe
 #, object-pascal-format
 msgid "Wipe file %s"
-msgstr "Fájl  megsemmisítése: %s"
+msgstr "Fájl megsemmisítése: %s"
 
 #: ulng.rsmsglogwipedir
 #, object-pascal-format
@@ -11963,13 +12202,19 @@ msgid "Object does not exist!"
 msgstr "Az objektum nem létezik!"
 
 #: ulng.rsmsgopeninanotherprogram
-msgid "The action cannot be completed because the file is open in another program:"
-msgstr "A műveletet nem lehet befejezni, mert a fájlt egy másik program megnyitotta:"
+msgid ""
+"The action cannot be completed because the file is open in another program:"
+msgstr ""
+"A műveletet nem lehet befejezni, mert a fájlt egy másik program megnyitotta:"
 
 #: ulng.rsmsgpanelpreview
 msgctxt "ulng.rsmsgpanelpreview"
-msgid "Below is a preview. You may move cursor and select files to get immediately an actual look and feel of the various settings."
-msgstr "Alább egy előnézet látható. Mozgathatja a kurzort és kijelölhet fájlokat a változtatások azonnali kipróbálása érdekében."
+msgid ""
+"Below is a preview. You may move cursor and select files to get immediately "
+"an actual look and feel of the various settings."
+msgstr ""
+"Alább egy előnézet látható. Mozgathatja a kurzort és kijelölhet fájlokat a "
+"változtatások azonnali kipróbálása érdekében."
 
 #: ulng.rsmsgpassword
 msgctxt "ulng.rsmsgpassword"
@@ -12049,7 +12294,9 @@ msgstr "Szeretné lecserélni ezt a szöveget?"
 
 #: ulng.rsmsgrestartforapplychanges
 msgid "Please, restart Double Commander in order to apply changes"
-msgstr "Kérem, indítsa újra a Double Commander-t, hogy érvényesíthessük a változásokat"
+msgstr ""
+"Kérem, indítsa újra a Double Commander-t, hogy érvényesíthessük a "
+"változásokat"
 
 #: ulng.rsmsgscriptcantfindlibrary
 #, object-pascal-format
@@ -12080,7 +12327,7 @@ msgstr "Válassza ki a következő kötet helyét"
 
 #: ulng.rsmsgsetvolumelabel
 msgid "Set volume label"
-msgstr "Kötetcimke beállítása"
+msgstr "Kötetcímke beállítása"
 
 #: ulng.rsmsgspecialdir
 msgid "Special Dirs"
@@ -12219,8 +12466,16 @@ msgid "Built-in terminal window disabled. Do you want to enable it?"
 msgstr "A beépített terminálablak le van tiltva. Szeretné engedélyezni?"
 
 #: ulng.rsmsgterminateprocess
-msgid "WARNING: Terminating a process can cause undesired results including loss of data and system instability. The process will not be given the chance to save its state or data before it is terminated. Are you sure you want to terminate the process?"
-msgstr "FIGYELEM: A folyamat leállítása nemkívánatos eredményeket okozhat, beleértve az adatok elvesztését és a rendszer instabillá válását. A folyamat így nem kap lehetőséget arra, hogy állapotát vagy adatait mentse a leállítása előtt. Biztosan le szeretné állítani a folyamatot?"
+msgid ""
+"WARNING: Terminating a process can cause undesired results including loss of "
+"data and system instability. The process will not be given the chance to "
+"save its state or data before it is terminated. Are you sure you want to "
+"terminate the process?"
+msgstr ""
+"FIGYELEM: A folyamat leállítása nemkívánatos eredményeket okozhat, beleértve "
+"az adatok elvesztését és a rendszer instabillá válását. A folyamat így nem "
+"kap lehetőséget arra, hogy állapotát vagy adatait mentse a leállítása előtt. "
+"Biztosan le szeretné állítani a folyamatot?"
 
 #: ulng.rsmsgtestarchive
 msgid "Do you want to test selected archives?"
@@ -12337,7 +12592,9 @@ msgstr ""
 
 #: ulng.rsmulrenautorename
 msgid "Do auto-rename to \"name (1).ext\", \"name (2).ext\" etc.?"
-msgstr "Legyen automatikus átnevezés a következők szerint: \"név (1).kit\", \"név (2).kit\" stb.?"
+msgstr ""
+"Legyen automatikus átnevezés a következők szerint: \"név (1).kit\", \"név "
+"(2).kit\" stb.?"
 
 #: ulng.rsmulrencounter
 msgctxt "ulng.rsmulrencounter"
@@ -12371,8 +12628,12 @@ msgid "Enter value for variable \"%s\""
 msgstr "Írja be a(z) \"%s\" változó értékét"
 
 #: ulng.rsmulrenexitmodifiedpresetoptions
-msgid "Ignore, just save as the [Last One];Prompt user to confirm if we save it;Save automatically"
-msgstr "Ne törődjön vele, [Legutóbb használt]-ként mentse el;Kérdezze meg a felhasználót, menteni szeretné-e?;Mentés automatikusan"
+msgid ""
+"Ignore, just save as the [Last One];Prompt user to confirm if we save it;"
+"Save automatically"
+msgstr ""
+"Ne törődjön vele, [Legutóbb használt]-ként mentse el;Kérdezze meg a "
+"felhasználót, menteni szeretné-e?;Mentés automatikusan"
 
 #: ulng.rsmulrenextension
 msgctxt "ulng.rsmulrenextension"
@@ -12385,8 +12646,11 @@ msgid "Name"
 msgstr "Név"
 
 #: ulng.rsmulrenfilenamestylelist
-msgid "No change;UPPERCASE;lowercase;First char uppercase;First Char Of Every Word Uppercase;"
-msgstr "Nincs változás;NAGYBETŰS;kisbetűs;Nagy kezdőbetűs;Minden Szó Nagy Kezdőbetűs;"
+msgid ""
+"No change;UPPERCASE;lowercase;First char uppercase;First Char Of Every Word "
+"Uppercase;"
+msgstr ""
+"Nincs változás;NAGYBETŰS;kisbetűs;Nagy kezdőbetűs;Minden Szó Nagy Kezdőbetűs;"
 
 #: ulng.rsmulrenlastpreset
 msgid "[The last used]"
@@ -12394,7 +12658,9 @@ msgstr "[Legutóbb használt]"
 
 #: ulng.rsmulrenlaunchbehavioroptions
 msgid "Last masks under [Last One] preset;Last preset;New fresh masks"
-msgstr "A [Legutóbb használt] maszkok;A legutóbb használt mentett beállítás;Teljesen új maszkok"
+msgstr ""
+"A [Legutóbb használt] maszkok;A legutóbb használt mentett beállítás;Teljesen "
+"új maszkok"
 
 #: ulng.rsmulrenlogstart
 msgctxt "ulng.rsmulrenlogstart"
@@ -12403,11 +12669,11 @@ msgstr "Csoportos átnevező"
 
 #: ulng.rsmulrenmaskcharatposx
 msgid "Character at position x"
-msgstr "Az x-edik karakter"
+msgstr "Az X-edik karakter"
 
 #: ulng.rsmulrenmaskcharatposxtoy
 msgid "Characters from position x to y"
-msgstr "Karakterek az x-től y-ig terjedően"
+msgstr "Karakterek az X-től Y-ig terjedően"
 
 #: ulng.rsmulrenmaskcompletedate
 msgid "Complete date"
@@ -12432,7 +12698,7 @@ msgstr "Nap (2 számjegy)"
 
 #: ulng.rsmulrenmaskdowabrev
 msgid "Day of the week (short, e.g., \"mon\")"
-msgstr "A hét napja (röviden, pl.: \"hé\")"
+msgstr "A hét napja (röviden, pl.: \"hét\")"
 
 #: ulng.rsmulrenmaskdowcomplete
 msgid "Day of the week (long, e.g., \"monday\")"
@@ -12449,7 +12715,7 @@ msgstr "Teljes fájlnév az elérési úttal és fájlnévvel"
 
 #: ulng.rsmulrenmaskfullnamecharatposxtoy
 msgid "Complete filename, char from pos x to y"
-msgstr "Teljes fájlnév karakterei az x-től y-ig terjedően"
+msgstr "Teljes fájlnév, az X karaktertől Y-ig"
 
 #: ulng.rsmulrenmaskguid
 msgid "GUID"
@@ -12675,7 +12941,7 @@ msgstr "Másolás"
 #: ulng.rsopercopyingfromto
 #, object-pascal-format
 msgid "Copying from \"%s\" to \"%s\""
-msgstr "Másolás innen \"%s\" ide  \"%s\""
+msgstr "Másolás innen \"%s\" ide \"%s\""
 
 #: ulng.rsopercopyingsomethingto
 #, object-pascal-format
@@ -12871,15 +13137,19 @@ msgstr "Dolgozom..."
 
 #: ulng.rsoptaddfrommainpanel
 msgid "Add at &beginning;Add at the end;Smart add"
-msgstr "Az elejére;A végére;Okosan:)"
+msgstr "Az elejére;A végére;Okosan"
 
 #: ulng.rsoptaddingtooltipfiletype
 msgid "Adding new tooltip file type"
 msgstr "Új eszköztipp fájltípus hozzáadása"
 
 #: ulng.rsoptarchiveconfiguresavetochange
-msgid "To change current editing archive configuration, either APPLY or DELETE current editing one"
-msgstr "Az éppen szerkesztett tömörítő beállítások cseréjéhez ALKALMAZZA a módosításokat vagy TÖRÖLJE a jelenlegit"
+msgid ""
+"To change current editing archive configuration, either APPLY or DELETE "
+"current editing one"
+msgstr ""
+"Az éppen szerkesztett tömörítő beállítások cseréjéhez ALKALMAZZA a "
+"módosításokat vagy TÖRÖLJE a jelenlegit"
 
 #: ulng.rsoptarchiveradditonalcmd
 msgid "Mode dependent, additional command"
@@ -12940,7 +13210,7 @@ msgstr "Fájllista (hosszú nevek)"
 
 #: ulng.rsoptarchiverfilelists
 msgid "Filelist (short names)"
-msgstr "Fájllista (rövid  nevek)"
+msgstr "Fájllista (rövid nevek)"
 
 #: ulng.rsoptarchiverimportcaption
 msgid "Import archiver configuration"
@@ -13027,8 +13297,12 @@ msgid "Full expand;Full collapse"
 msgstr "Teljes kibontás; Teljes összecsukás"
 
 #: ulng.rsoptdifferframeposition
-msgid "Active frame panel on left, inactive on right (legacy);Left frame panel on left, right on right"
-msgstr "Aktív panel a bal oldalra, inaktív a jobb oldalra (régi);Bal panel a bal oldalra, jobb a jobb oldalra"
+msgid ""
+"Active frame panel on left, inactive on right (legacy);Left frame panel on "
+"left, right on right"
+msgstr ""
+"Aktív panel a bal oldalra, inaktív a jobb oldalra (régi);Bal panel a bal "
+"oldalra, jobb a jobb oldalra"
 
 #: ulng.rsoptenterext
 msgid "Enter extension"
@@ -13048,8 +13322,12 @@ msgstr "lebegőpontos"
 
 #: ulng.rsopthotkeysadddeleteshortcutlong
 #, object-pascal-format
-msgid "Shortcut %s for cm_Delete will be registered, so it can be used to reverse this setting."
-msgstr "A cm_Delete %s gyorsbillentyűje hozzárendelésre kerül, így felhasználható e beállítás megfordítására."
+msgid ""
+"Shortcut %s for cm_Delete will be registered, so it can be used to reverse "
+"this setting."
+msgstr ""
+"A cm_Delete %s gyorsbillentyűje hozzárendelésre kerül, így felhasználható e "
+"beállítás megfordítására."
 
 #: ulng.rsopthotkeysaddhotkey
 #, object-pascal-format
@@ -13075,13 +13353,22 @@ msgstr "Parancs"
 
 #: ulng.rsopthotkeysdeletetrashcanoverrides
 #, object-pascal-format
-msgid "Shortcut %s for cm_Delete has a parameter that overrides this setting. Do you want to change this parameter to use the global setting?"
-msgstr "A cm_Delete %s gyorsbillentyűje olyan paraméterrel rendelkezik, amely felülírja ezt a beállítást. Szeretné megváltoztatni ezt a paramétert és a globális beállítást használni helyette?"
+msgid ""
+"Shortcut %s for cm_Delete has a parameter that overrides this setting. Do "
+"you want to change this parameter to use the global setting?"
+msgstr ""
+"A cm_Delete %s gyorsbillentyűje olyan paraméterrel rendelkezik, amely "
+"felülírja ezt a beállítást. Szeretné megváltoztatni ezt a paramétert és a "
+"globális beállítást használni helyette?"
 
 #: ulng.rsopthotkeysdeletetrashcanparameterexists
 #, object-pascal-format
-msgid "Shortcut %s for cm_Delete needs to have a parameter changed to match shortcut %s. Do you want to change it?"
-msgstr "A cm_Delete %s gyorsbillentyűje a paramétere megváltoztatását igényli, hogy megfeleljen a(z) \"%s\" gyorsbillentyű működésének. Megváltoztatja?"
+msgid ""
+"Shortcut %s for cm_Delete needs to have a parameter changed to match "
+"shortcut %s. Do you want to change it?"
+msgstr ""
+"A cm_Delete %s gyorsbillentyűje a paramétere megváltoztatását igényli, hogy "
+"megfeleljen a(z) \"%s\" gyorsbillentyű működésének. Megváltoztatja?"
 
 #: ulng.rsopthotkeysdescription
 msgctxt "ulng.rsopthotkeysdescription"
@@ -13122,13 +13409,23 @@ msgstr "Gyorsbillentyű beállítása fájl törlésre"
 
 #: ulng.rsopthotkeysshortcutfordeletealreadyassigned
 #, object-pascal-format
-msgid "For this setting to work with shortcut %s, shortcut %s must be assigned to cm_Delete but it is already assigned to %s. Do you want to change it?"
-msgstr "Ahhoz, hogy a(z)\"%s\" gyorsbillentyű működjön, a(z) \"%s\" gyorsbillentyűt a cm_Delete parancshoz kell rendelni, de már hozzá van rendelve ehhez: \"%s\". Megváltoztatja?"
+msgid ""
+"For this setting to work with shortcut %s, shortcut %s must be assigned to "
+"cm_Delete but it is already assigned to %s. Do you want to change it?"
+msgstr ""
+"Ahhoz, hogy a(z) \"%s\" gyorsbillentyű működjön, a(z) \"%s\" gyorsbillentyűt "
+"a cm_Delete parancshoz kell rendelni, de már hozzá van rendelve ehhez: "
+"\"%s\". Megváltoztatja?"
 
 #: ulng.rsopthotkeysshortcutfordeleteissequence
 #, object-pascal-format
-msgid "Shortcut %s for cm_Delete is a sequence shortcut for which a hotkey with reversed Shift cannot be assigned. This setting might not work."
-msgstr "A cm_Delete %s gyorsbillentyűje egy olyan szekvenciaparancs, amelyhez nem lehet hozzárendelni fordított Shift-tel működő gyorsbillentyűt. Ez a beállítás valószínűleg nem fog működni."
+msgid ""
+"Shortcut %s for cm_Delete is a sequence shortcut for which a hotkey with "
+"reversed Shift cannot be assigned. This setting might not work."
+msgstr ""
+"A cm_Delete %s gyorsbillentyűje egy olyan szekvenciaparancs, amelyhez nem "
+"lehet hozzárendelni fordított Shift-tel működő gyorsbillentyűt. Ez a "
+"beállítás valószínűleg nem fog működni."
 
 #: ulng.rsopthotkeysshortcutused
 msgid "Shortcut in use"
@@ -13326,7 +13623,7 @@ msgstr "Beépülők"
 
 #: ulng.rsoptionseditorquicksearch
 msgid "Quick search/filter"
-msgstr "Gyorskeresés/szűrő"
+msgstr "Gyors keresés/szűrő"
 
 #: ulng.rsoptionseditorterminal
 msgctxt "ulng.rsoptionseditorterminal"
@@ -13364,19 +13661,27 @@ msgstr "Fanézet menü színei"
 
 #: ulng.rsoptletters
 msgid "None;Command Line;Quick Search;Quick Filter"
-msgstr "Sehol;Parancssor;Gyorskeresés;Gyorsszűrő"
+msgstr "Sehol;Parancssor;Gyors keresés;Gyors szűrő"
 
 #: ulng.rsoptmouseselectionbutton
 msgid "Left button;Right button;"
 msgstr "Bal gomb;Jobb gomb;"
 
 #: ulng.rsoptnewfilesposition
-msgid "at the top of the file list;after directories (if directories are sorted before files);at sorted position;at the bottom of the file list"
-msgstr "a fájl lista tetején;mappák után (ha a mappák hamarább vannak a fájloktól);rendezési sorrendben;a fájllista alján"
+msgid ""
+"at the top of the file list;after directories (if directories are sorted "
+"before files);at sorted position;at the bottom of the file list"
+msgstr ""
+"a fájl lista tetején;mappák után (ha a mappák hamarább vannak a fájloktól);"
+"rendezési sorrendben;a fájllista alján"
 
 #: ulng.rsoptpersonalizedfilesizeformat
-msgid "Personalized float;Personalized byte;Personalized kilobyte;Personalized megabyte;Personalized gigabyte;Personalized terabyte"
-msgstr "egyedi lebegőpontos;egyedi bájt;egyedi kilobájt;egyedi megabájt;egyedi gigabájt;egyedi terabájt"
+msgid ""
+"Personalized float;Personalized byte;Personalized kilobyte;Personalized "
+"megabyte;Personalized gigabyte;Personalized terabyte"
+msgstr ""
+"egyedi lebegőpontos;egyedi bájt;egyedi kilobájt;egyedi megabájt;egyedi "
+"gigabájt;egyedi terabájt"
 
 #: ulng.rsoptpluginalreadyassigned
 #, object-pascal-format
@@ -13422,7 +13727,9 @@ msgstr "Név"
 
 #: ulng.rsoptpluginsortonlywhenbyextension
 msgid "Sorting WCX plugins is only possible when showing plugins by extension!"
-msgstr "A WCX beépülők rendezése csak a kiterjesztés szerinti megjelenítési módban lehetséges!"
+msgstr ""
+"A WCX beépülők rendezése csak a kiterjesztés szerinti megjelenítési módban "
+"lehetséges!"
 
 #: ulng.rsoptpluginsregisteredfor
 msgctxt "ulng.rsoptpluginsregisteredfor"
@@ -13446,20 +13753,37 @@ msgid "&Files;Di&rectories;Files a&nd Directories"
 msgstr "&Fájlok;&Mappák;Fájlok é&s Mappák"
 
 #: ulng.rsoptsearchopt
-msgid "&Hide filter panel when not focused;Keep saving setting modifications for next session"
-msgstr "Szűrőpanel elrejtése, &ha nem fókuszált;Beállításmódosítások megtartása a következő munkamenetre"
+msgid ""
+"&Hide filter panel when not focused;Keep saving setting modifications for "
+"next session"
+msgstr ""
+"Szűrőpanel elrejtése, &ha nem fókuszált;Beállításmódosítások megtartása a "
+"következő munkamenetre"
 
 #: ulng.rsoptsortcasesens
-msgid "not case sensitive;according to locale settings (aAbBcC);first upper then lower case (ABCabc)"
-msgstr "nem karakterérzékeny;területi beállítások szerint (aAbBcC);előbb nagybetűs, aztán kisbetűs (ABCabc)"
+msgid ""
+"not case sensitive;according to locale settings (aAbBcC);first upper then "
+"lower case (ABCabc)"
+msgstr ""
+"nem karakterérzékeny;területi beállítások szerint (aAbBcC);előbb nagybetűs, "
+"aztán kisbetűs (ABCabc)"
 
 #: ulng.rsoptsortfoldermode
-msgid "sort by name and show first;sort like files and show first;sort like files"
-msgstr "rendezés név szerint, mappák előre;fájlokéval egyező rendezés, mappák elöl;fájlokéval megegyező"
+msgid ""
+"sort by name and show first;sort like files and show first;sort like files"
+msgstr ""
+"rendezés név szerint, mappák előre;fájlokéval egyező rendezés, mappák elöl;"
+"fájlokéval megegyező"
 
 #: ulng.rsoptsortmethod
-msgid "Alphabetical, considering accents;Alphabetical with special characters sort;Natural sorting: alphabetical and numbers;Natural with special characters sort"
-msgstr "betűrendben, ékezetek figyelembe vételével;betűrendben, különleges karakterek rendezve;természetes rendezés: betűrend és számok;természetes, különleges karakterek rendezve"
+msgid ""
+"Alphabetical, considering accents;Alphabetical with special characters sort;"
+"Natural sorting: alphabetical and numbers;Natural with special characters "
+"sort"
+msgstr ""
+"betűrendben, ékezetek figyelembe vételével;betűrendben, különleges "
+"karakterek rendezve;természetes rendezés: betűrend és számok;természetes, "
+"különleges karakterek rendezve"
 
 #: ulng.rsopttabsposition
 msgid "Top;Bottom;"
@@ -13470,8 +13794,12 @@ msgid "S&eparator;Inte&rnal command;E&xternal command;Men&u"
 msgstr "&Elválasztó;Belső pa&rancs;Külső &parancs;&Menü"
 
 #: ulng.rsopttooltipconfiguresavetochange
-msgid "To change file type tooltip configuration, either APPLY or DELETE current editing one"
-msgstr "Az éppen szerkesztett eszköztipp fájltípus beállítások cseréjéhez ALKALMAZZA a módosításokat vagy TÖRÖLJE a jelenlegit"
+msgid ""
+"To change file type tooltip configuration, either APPLY or DELETE current "
+"editing one"
+msgstr ""
+"Az éppen szerkesztett eszköztipp fájltípus beállítások cseréjéhez ALKALMAZZA "
+"a módosításokat vagy TÖRÖLJE a jelenlegit"
 
 #: ulng.rsopttooltipfiletype
 msgid "Tooltip file type name:"
@@ -13527,24 +13855,38 @@ msgid "Select the one(s) you want to import"
 msgstr "Válassza ki az importálandó(ka)t"
 
 #: ulng.rsopttooltipfiletypewheretosave
-msgid "Enter location and filename where to save tooltip file type configuration"
-msgstr "Adja meg az eszköztipp fájltípus beállítások mentésének helyét és nevét"
+msgid ""
+"Enter location and filename where to save tooltip file type configuration"
+msgstr ""
+"Adja meg az eszköztipp fájltípus beállítások mentésének helyét és nevét"
 
 #: ulng.rsopttooltipsfiletypename
 msgid "Tooltip file type name"
 msgstr "Eszköztipp fájltípus neve"
 
 #: ulng.rsopttypeofduplicatedrename
-msgid "DC legacy - Copy (x) filename.ext;Windows - filename (x).ext;Other - filename(x).ext"
-msgstr "Régi DC - Másolat (x) fájlnév.kit;Windows - fájlnév (x).kit;Egyéb - fájlnév(x).kit"
+msgid ""
+"DC legacy - Copy (x) filename.ext;Windows - filename (x).ext;Other - "
+"filename(x).ext"
+msgstr ""
+"Régi DC - Másolat (x) fájlnév.kit;Windows - fájlnév (x).kit;Egyéb - "
+"fájlnév(x).kit"
 
 #: ulng.rsoptupdatedfilesposition
-msgid "don't change position;use the same setting as for new files;to sorted position"
-msgstr "ne módosítsa a helyzetet;használja az új fájl beállításait;rendezett sorrendben"
+msgid ""
+"don't change position;use the same setting as for new files;to sorted "
+"position"
+msgstr ""
+"ne módosítsa a helyzetet;használja az új fájl beállításait;rendezett "
+"sorrendben"
 
 #: ulng.rspluginfilenamestylelist
-msgid "With complete absolute path;Path relative to %COMMANDER_PATH%;Relative to the following"
-msgstr "Teljes abszulút útvonallal;Relatív útvonallal ehhez: %COMMANDER_PATH%;Relatív útvonallal a következőhöz"
+msgid ""
+"With complete absolute path;Path relative to %COMMANDER_PATH%;Relative to "
+"the following"
+msgstr ""
+"Teljes abszolút útvonallal;Relatív útvonallal ehhez: %COMMANDER_PATH%;"
+"Relatív útvonallal a következőhöz"
 
 #: ulng.rspluginsearchcontainscasesenstive
 msgid "contains(case)"
@@ -13633,6 +13975,7 @@ msgid "Multiple types"
 msgstr "Többféle típus"
 
 #: ulng.rspropsnmdpipe
+#, fuzzy
 msgid "Named pipe"
 msgstr "Nevezett pipe"
 
@@ -13690,7 +14033,9 @@ msgstr "Válasszon ki egy könyvtárat"
 
 #: ulng.rsselectduplicatemethod
 msgid "Newest;Oldest;Largest;Smallest;First in group;Last in group"
-msgstr "Legújabb;Legrégebbi;Legnagyobb;Legkisebb;Első a csoportban;Utolsó a csoportban"
+msgstr ""
+"Legújabb;Legrégebbi;Legnagyobb;Legkisebb;Első a csoportban;Utolsó a "
+"csoportban"
 
 #: ulng.rsselectyoufindfileswindow
 msgid "Select your window"
@@ -13771,23 +14116,23 @@ msgstr "MunkaMappa"
 
 #: ulng.rssizeunitbytes
 msgid "Bytes"
-msgstr "bájt"
+msgstr "Bájt"
 
 #: ulng.rssizeunitgbytes
 msgid "Gigabytes"
-msgstr "gigabájt"
+msgstr "Gigabájt"
 
 #: ulng.rssizeunitkbytes
 msgid "Kilobytes"
-msgstr "kilobájt"
+msgstr "Kilobájt"
 
 #: ulng.rssizeunitmbytes
 msgid "Megabytes"
-msgstr "megabájt"
+msgstr "Megabájt"
 
 #: ulng.rssizeunittbytes
 msgid "Terabytes"
-msgstr "terabájt"
+msgstr "Terrabájt"
 
 #: ulng.rsspacemsg
 #, object-pascal-format
@@ -13811,8 +14156,14 @@ msgid "The number of parts is more than 100! Continue?"
 msgstr "A darabok száma több, mint 100! Folytassam?"
 
 #: ulng.rssplitpredefinedsizes
-msgid "Automatic;1457664B - 3.5\" High Density 1.44M;1213952B - 5.25\" High Density 1.2M;730112B - 3.5\" Double Density 720K;362496B - 5.25\" Double Density 360K;98078KB - ZIP 100MB;650MB - CD 650MB;700MB - CD 700MB;4482MB - DVD+R"
-msgstr "Automatikus;1457664B - 3.5\" HD lemez 1.44M;1213952B - 5.25\" HD lemez 1.2M;730112B - 3.5\" DD lemez 720K;362496B - 5.25\" DD lemez 360K;98078kB - ZIP 100MB;650MB - CD 650MB;700MB - CD 700MB;4482MB - DVD+R"
+msgid ""
+"Automatic;1457664B - 3.5\" High Density 1.44M;1213952B - 5.25\" High Density "
+"1.2M;730112B - 3.5\" Double Density 720K;362496B - 5.25\" Double Density "
+"360K;98078KB - ZIP 100MB;650MB - CD 650MB;700MB - CD 700MB;4482MB - DVD+R"
+msgstr ""
+"Automatikus;1457664B - 3.5\" HD lemez 1.44M;1213952B - 5.25\" HD lemez "
+"1.2M;730112B - 3.5\" DD lemez 720K;362496B - 5.25\" DD lemez 360K;98078kB - "
+"ZIP 100MB;650MB - CD 650MB;700MB - CD 700MB;4482MB - DVD+R"
 
 #: ulng.rssplitseldir
 msgid "Select directory:"
@@ -13904,7 +14255,8 @@ msgstr "Egyszerű szöveg"
 
 #: ulng.rstabsactionondoubleclickchoices
 msgid "Do nothing;Close tab;Access Favorite Tabs;Tabs popup menu"
-msgstr "Nem csinál semmit;Fül bezárása;Kedvenc fülek megnyitása;Fülek felugró menü"
+msgstr ""
+"Nem csinál semmit;Fül bezárása;Kedvenc fülek megnyitása;Fülek felugró menü"
 
 #: ulng.rstimeunitday
 msgid "Day(s)"
@@ -13975,11 +14327,18 @@ msgstr "Terminál"
 
 #: ulng.rstooltiphidetimeoutlist
 msgid "System default;1 sec;2 sec;3 sec;5 sec;10 sec;30 sec;1 min;Never hide"
-msgstr "Rendszer alapérték;1 mp;2 mp;3 mp;5 mp;10 mp;30 mp;1 perc;Soha nem rejti el"
+msgstr ""
+"Rendszer alapérték;1 mp;2 mp;3 mp;5 mp;10 mp;30 mp;1 perc;Soha nem rejti el"
 
 #: ulng.rstooltipmodelist
-msgid "Combine DC and system tooltip, DC first (legacy);Combine DC and system tooltip, system first;Show DC tooltip when possible and system when not;Show DC tooltip only;Show system tooltip only"
-msgstr "DC és rendszertippek összevonva, DC elöl (régi);DC és rendszertippek, rendszer elöl;DC tipp ha van, egyébként rendszer;Csak DC tippek;Csak rendszer tippek"
+msgid ""
+"Combine DC and system tooltip, DC first (legacy);Combine DC and system "
+"tooltip, system first;Show DC tooltip when possible and system when not;Show "
+"DC tooltip only;Show system tooltip only"
+msgstr ""
+"DC és rendszertippek összevonva, DC elöl (régi);DC és rendszertippek, "
+"rendszer elöl;DC tipp ha van, egyébként rendszer;Csak DC tippek;Csak "
+"rendszer tippek"
 
 #: ulng.rstoolviewer
 msgctxt "ulng.rstoolviewer"
@@ -13988,12 +14347,19 @@ msgstr "Nézőke"
 
 #: ulng.rsunhandledexceptionmessage
 #, object-pascal-format
-msgid "Please report this error to the bug tracker with a description of what you were doing and the following file:%sPress %s to continue or %s to abort the program."
-msgstr "Kérlek, jelezd a hibát a 'bug tracker'-en egy leírással arra vonatkozóan, hogy mit csináltál éppen és csatold a következő fájlt: %s. Nyomd meg a (z) \"%s\" gombot a folytatáshoz, vagy a(z) \"%s\" gombot a programból való kilépéshez."
+msgid ""
+"Please report this error to the bug tracker with a description of what you "
+"were doing and the following file:%sPress %s to continue or %s to abort the "
+"program."
+msgstr ""
+"Kérem, jelezze a hibát a 'bug tracker'-en egy leírással arra vonatkozóan, "
+"hogy mit csinált éppen és csatolja a következő fájlt: %s. Nyomja meg a (z) "
+"\"%s\" gombot a folytatáshoz, vagy a(z) \"%s\" gombot a programból való "
+"kilépéshez."
 
 #: ulng.rsvarbothpanelactivetoinactive
 msgid "Both panels, from active to inactive"
-msgstr "Mindkét panel, előbb az aktív majd az inaktív"
+msgstr "Mindkét panel, az aktívtól az inaktívig"
 
 #: ulng.rsvarbothpanellefttoright
 msgid "Both panels, from left to right"
@@ -14020,7 +14386,8 @@ msgid "Help with \"%\" variables"
 msgstr "A(z) \"%\" változók súgója"
 
 #: ulng.rsvarinputparam
-msgid "Will request request user to enter a parameter with a default suggested value"
+msgid ""
+"Will request request user to enter a parameter with a default suggested value"
 msgstr "Paramétert kér a felhasználótól a javasolt alapértékkel"
 
 #: ulng.rsvarlastdircurrentpath
@@ -14041,7 +14408,8 @@ msgstr "Átmeneti fájl, mely fájlnevek listáját tartalmazza"
 
 #: ulng.rsvarlistfullfilename
 msgid "Temporary filename of list of complete filenames (path+filename)"
-msgstr "Átmeneti fájl, mely teljes útvonalak listáját tartalmazza (útvonal + fájlnév)"
+msgstr ""
+"Átmeneti fájl, mely teljes útvonalak listáját tartalmazza (útvonal + fájlnév)"
 
 #: ulng.rsvarlistinutf16
 msgid "Filenames in list in UTF-16 with BOM"
@@ -14065,11 +14433,11 @@ msgstr "Átmeneti fájl, mely fájlok relatív útvonalú listáját tartalmazza
 
 #: ulng.rsvaronlyextension
 msgid "Only file extension"
-msgstr "Csak a kiterjesztés"
+msgstr "Csak kiterjesztés"
 
 #: ulng.rsvaronlyfilename
 msgid "Only filename"
-msgstr "Csak a fájlnév"
+msgstr "Csak fájlnév"
 
 #: ulng.rsvarotherexamples
 msgid "Other example of what's possible"
@@ -14080,16 +14448,22 @@ msgid "Path, without ending delimiter"
 msgstr "Útvonal, a végén útvonal elválasztó nélkül"
 
 #: ulng.rsvarpercentchangetopound
-msgid "From here to the end of the line, the percent-variable indicator is the \"#\" sign"
-msgstr "Innentől a sor végéig a százalékos változó mutatót a \"#\" jel váltja fel"
+msgid ""
+"From here to the end of the line, the percent-variable indicator is the "
+"\"#\" sign"
+msgstr ""
+"Innentől a sor végéig a százalékos változó mutatót a \"#\" jel váltja fel"
 
 #: ulng.rsvarpercentsign
 msgid "Return the percent sign"
 msgstr "Százalék jelet ad vissza"
 
 #: ulng.rsvarpoundchangetopercent
-msgid "From here to the end of the line, the percent-variable indicator is back the \"%\" sign"
-msgstr "Innentől a sor végéig a százalékos változó mutató visszatér a \"%\" jelre"
+msgid ""
+"From here to the end of the line, the percent-variable indicator is back the "
+"\"%\" sign"
+msgstr ""
+"Innentől a sor végéig a százalékos változó mutató visszatér a \"%\" jelre"
 
 #: ulng.rsvarprependelement
 msgid "Prepend each name with \"-a \" or what you want"
@@ -14216,4 +14590,3 @@ msgstr "Nem történt csere."
 #, object-pascal-format
 msgid "No setup named \"%s\""
 msgstr "Nincs \"%s\" nevű beállítás"
-
